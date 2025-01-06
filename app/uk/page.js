@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './page.module.css'
-import Breadcrumb from '/components/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb'
 
 export default function DownloadPage() {
     const breadcrumbItems = [
