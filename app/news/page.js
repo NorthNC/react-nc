@@ -132,11 +132,11 @@ export default function NewsPage() {
           <a href={video.reference.url} className={styles.videoReference}>{video.reference.text}</a>
         </div>
       ))}
-      <div>
+      {/* <div>
       <SecureTweetEmbed
         tweetId="1875876925803241727" // Replace with an actual tweet I
       />
-      </div>
+      </div> */}
       <h2 className={styles.NewsBoxHeader}>More News</h2>
       <div className={styles.newsGrid}>
         {newsItems.map((item) => (
