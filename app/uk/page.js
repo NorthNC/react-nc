@@ -1,11 +1,15 @@
 import Link from 'next/link'
 import styles from './page.module.css'
-
+import Breadcrumb from '@/components/BreadCrumb'
 
 export default function DownloadPage() {
-    
+    const breadcrumbItems = [
+        { href: '/', label: 'Home' },
+        { href: '/uk', label: 'United Kingdom' },
+      ];
   return (
     <>
+        <Breadcrumb items={breadcrumbItems} />
       <div className={styles.container}>
       <div className={styles.box}>
         <h1 className={styles.title}>Download PDFs</h1>

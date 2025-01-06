@@ -1,263 +1,176 @@
-/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/news/NewsSections.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************/
-/* Base styles */
-.NewsSections_pageWrapper__GKJpw {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 5px;
-}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/NewsBox.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.NewsBox_newsBox__JmZCT {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .NewsBox_newsBox__JmZCT:hover {
+    transform: translateY(-5px);
+  }
+  
+  .NewsBox_image__pFA6a {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .NewsBox_title__EUt2Y {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px;
+  }
+  
+  .NewsBox_summary__6w5Hx {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px;
+    line-height: 1.4;
+  }
+  
+  .NewsBox_link__ukWl6 {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NewsBox_link__ukWl6:hover {
+    background-color: #0051a2;
+  }
+  
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/news/page.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.page_container__uzzYi {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page_title__3ubX5 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .page_newsGrid__LLqaP {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    gap: 40px;
+    margin-top: 40px;
+  }
 
-.NewsSections_newsContainer__t7D4Q {
-  max-width: 1320px;
-  margin: 0 auto;
+  .page_NewsBoxHeader__Jkwf1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page_videoTitle__6Vdx7 {
+    /* Add your styling here */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .page_videoReference__5P24q {
+    /* Add your styling here */
+    font-size: smaller;
+    color: grey;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/SecureTweetEmbed.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.SecureTweetEmbed_tweetEmbedContainer__NLo1t {
+  margin: 10px 0;
   padding: 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.NewsSections_videoSectionTitle__CPZgL {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.NewsSections_videoGrid__fKKqQ {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.NewsSections_videoRow__TwWgx {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.NewsSections_newsSection__yCnXg {
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 5px;
-  flex: 1 1;
-}
-
-.NewsSections_newsItem__vtvHA {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.NewsSections_videoItemTitle__nFjVr {
-  padding: 5px 10px;
-  margin: 0;
-  font-size: 14px;
-}
-
-.NewsSections_videoThumbnail__xmOlf {
+.SecureTweetEmbed_tweetEmbed__uGWRL {
   position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 75%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 8px;
 }
 
-.NewsSections_videoPreview__l9hvm, .NewsSections_videoPlayer__Wm4LB {
+.SecureTweetEmbed_tweetEmbed__uGWRL iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
-.NewsSections_playButton___fSqG {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-}
-
-.NewsSections_textNewsHeader__rdGbd {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.NewsSections_moreNewsSection__NhLdU {
-  width: 100%;
-}
-
-.NewsSections_textNewsGrid__qrish {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.NewsSections_textNewsRow__N5nQV {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.NewsSections_textNewsItem__V8vkc {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex-basis: calc(33.33% - 20px);
-  max-width: calc(33.33% - 20px);
-}
-
-.NewsSections_textNewsItemTitle__2hFxx {
-  margin: 0 0 10px 0;
-  font-size: 16px;
-}
-
-.NewsSections_textNewsItemContent__ZQRDr {
-  margin: 0 0 15px 0;
+.SecureTweetEmbed_tweetTitle__JRi3s {
   font-size: 14px;
-}
-
-.NewsSections_readMore__wJjkI {
-  font-size: 12px;
-  color: #0070f3;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.NewsSections_readMore__wJjkI:hover {
-  text-decoration: underline;
-}
-
-/* Styling for the video description and source link */
-.NewsSections_videoDescription__yhCF0 {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #f8f8f8;
-  border-radius: 5px;
-  font-size: 14px;
+  margin-top: 5px;
   color: #333;
 }
 
-.NewsSections_sourceLink__SJpwG {
+.SecureTweetEmbed_sourceLink__I9CDj {
   display: inline-block;
   margin-top: 5px;
   color: #0070f3;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
 }
 
-.NewsSections_sourceLink__SJpwG:hover {
+.SecureTweetEmbed_sourceLink__I9CDj:hover {
   text-decoration: underline;
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
-  .NewsSections_videoRow__TwWgx, .NewsSections_textNewsRow__N5nQV {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .NewsSections_newsSection__yCnXg, .NewsSections_textNewsItem__V8vkc {
-    width: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
-    margin-bottom: 10px;
-  }
-
-  /* Adjust video preview and player aspect ratio */
-  .NewsSections_videoThumbnail__xmOlf {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: auto;
-  }
-
-  .NewsSections_videoPreview__l9hvm, .NewsSections_videoPlayer__Wm4LB {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .NewsSections_playButton___fSqG {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-  }
-
-  .NewsSections_videoDescription__yhCF0 {
-    font-size: 12px;
-    margin-top: 8px;
-    padding: 8px;
-  }
-
-  .NewsSections_sourceLink__SJpwG {
-    font-size: 12px;
-  }
+.SecureTweetEmbed_error__xZzV8 {
+  color: red;
+  font-size: 14px;
 }
-
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/SecureTweetEmbed.module.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
-.SecureTweetEmbed_tweetEmbedContainer__NLo1t {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .SecureTweetEmbed_tweetEmbed__uGWRL {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #fff;
-    border-radius: 8px;
-  }
-  
-  .SecureTweetEmbed_tweetEmbed__uGWRL iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/VideoPlayer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.VideoPlayer_videoContainer__sU3oF {
     width: 100%;
-    height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
-  .SecureTweetEmbed_tweetTitle__JRi3s {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #333;
+  .VideoPlayer_video__J7TfI {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .SecureTweetEmbed_sourceLink__I9CDj {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0070f3;
-    font-weight: bold;
-    text-decoration: none;
+  .VideoPlayer_placeholder__wb1fm {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 1.2rem;
+    border-radius: 8px;
   }
   
-  .SecureTweetEmbed_sourceLink__I9CDj:hover {
-    text-decoration: underline;
-  }
-  
-  .SecureTweetEmbed_error__xZzV8 {
-    color: red;
-    font-size: 16px;
-  }
   

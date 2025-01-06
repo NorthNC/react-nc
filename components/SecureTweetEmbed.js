@@ -24,7 +24,7 @@ const SecureTweetEmbed = ({ tweetId, tweetTitle, tweetSourceLink }) => {
         <iframe
           src={`https://twitframe.com/show?url=https://twitter.com/twitter/status/${tweetId}`}
           width="100%"
-          height="400"
+          height="300"
           frameBorder="0"
           allowFullScreen
           title="Twitter Video"

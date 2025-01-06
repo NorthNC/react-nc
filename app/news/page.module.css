@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .newsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .NewsBoxHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .videoTitle {
+    /* Add your styling here */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .videoReference {
+    /* Add your styling here */
+    font-size: smaller;
+    color: grey;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
