@@ -127,20 +127,23 @@ body {
   margin-top: 20px;
 }
 
-/* styles/globals.css */
-
+/* Breadcrumb Styles */
 .breadcrumb {
-  margin-bottom: 1rem;
-  margin: 0 auto;
-  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
   background-color: #8a8a8a;
-  padding-left: 30%;
+  font-size: 19px; /* Reduced font size for better mobile readability */
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .breadcrumb-list {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping on mobile */
 }
 
 .breadcrumb-item {
@@ -149,17 +152,34 @@ body {
 
 .breadcrumb-item a,
 .breadcrumb-item span {
-  color: #ffffff; /* Default link color */
+  color: #ffffff;
   text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px; /* Adjust based on your design needs */
 }
 
 .breadcrumb-item.active span {
-  color: #1e1e1e; /* Active item color */
+  color: #1e1e1e;
   font-weight: bold;
 }
 
 .separator {
   margin: 0 0.25rem;
+  color: #ffffff;
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  .breadcrumb {
+    font-size: 15px; /* Smaller font for mobile */
+    padding: 5px 10px; /* Reduced padding for mobile */
+  }
+
+  .breadcrumb-item a,
+  .breadcrumb-item span {
+    max-width: 100px; /* Further reduction for mobile */
+  }
 }
 
 /* news page css here */
