@@ -5,7 +5,7 @@ import Breadcrumb from '/components/Breadcrumb'
 export default function DownloadPage() {
     const breadcrumbItems = [
         { href: '/', label: 'Home' },
-        { href: '/some-page', label: 'Latvia' },
+        { href: '/latvia', label: 'Latvia' },
       ];
   return (
     <>
