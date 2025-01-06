@@ -1,7 +1,9 @@
 {
-  "/page": "app/page.js",
-  "/news/page": "app/news/page.js",
-  "/support/page": "app/support/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/FAQ/page": "app/FAQ/page.js",
-  "/czech/page": "app/czech/page.js"
+  "/support/page": "app/support/page.js",
+  "/news/page": "app/news/page.js",
+  "/czech/page": "app/czech/page.js",
+  "/denmark/page": "app/denmark/page.js",
+  "/page": "app/page.js"
 }

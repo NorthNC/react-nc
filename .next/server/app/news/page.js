@@ -332,7 +332,7 @@ function() { throw new Error("Attempted to call the default export of \"/Users/d
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/lucide-react","vendor-chunks/@swc","vendor-chunks/prop-types","vendor-chunks/react-is","vendor-chunks/object-assign"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fnews%2Fpage&page=%2Fnews%2Fpage&appPaths=%2Fnews%2Fpage&pagePath=private-next-app-dir%2Fnews%2Fpage.js&appDir=%2FUsers%2Fdingdong%2FDesktop%2Freact-nc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fdingdong%2FDesktop%2Freact-nc&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/lucide-react","vendor-chunks/prop-types","vendor-chunks/react-is","vendor-chunks/object-assign"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fnews%2Fpage&page=%2Fnews%2Fpage&appPaths=%2Fnews%2Fpage&pagePath=private-next-app-dir%2Fnews%2Fpage.js&appDir=%2FUsers%2Fdingdong%2FDesktop%2Freact-nc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fdingdong%2FDesktop%2Freact-nc&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
