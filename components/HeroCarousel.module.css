@@ -1,0 +1,153 @@
+/* HeroCarousel.module.css */
+
+.heroSection {
+    background: radial-gradient(circle, rgba(139,139,139,1) 29%, rgba(129,131,136,1) 41%, rgba(114,125,132,1) 52%, rgb(78, 103, 109) 70%, rgb(68, 92, 91) 81%, rgb(30, 45, 40) 100%);
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+.heroCarousel {
+    max-width: 1320px;
+    width: 100%;
+    height: auto; 
+    margin: 0 auto; /* Center the carousel */
+    padding: 0 15px; /* Add padding for smaller screens */
+    box-sizing: border-box;
+}
+
+.carouselItem {
+    width: 100%;
+    height: 450px; /* Make height responsive */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.carouselItem h1,
+.carouselItem h3 {
+    margin-bottom: 15px; /* Reduce margin for smaller screens */
+    padding: 0 1rem; /* Use rem for better scaling */
+    font-size: 2em; /* Use relative units */
+    text-align: center; /* Always center on mobile */
+}
+
+.carouselItem p {
+    margin: 15px 0; /* Reduce margin for smaller screens */
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5em; /* Use relative units */
+}
+
+.carouselItem ul {
+    margin-bottom: 15px;
+    padding: 0 1rem;
+    list-style-position: inside;
+    font-size: 1.5em; /* Smaller font size for lists on mobile */
+}
+
+.carouselLink {
+    width: 20%; /* Full width for better touch interaction on mobile */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.carouselLink a {
+    text-decoration: none;
+    width: 90%; /* Make it wider for easier touch interaction */
+    padding: 10px;
+    background-color: #1c831c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em; /* Use relative units */
+    text-align: center;
+}
+
+.carouselLink a:hover {
+    background-color: #4cae4c;
+}
+
+.carouselDots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 8px; /* Smaller dots for mobile */
+    height: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.activeDot {
+    background-color: #333;
+}
+
+.dot:hover {
+    background-color: #777;
+}
+
+@media (max-width: 768px) {
+    .carouselItem h1,
+    .carouselItem h3 {
+        font-size: 1.3em;
+    }
+
+    .carouselItem p {
+        font-size: 0.9em;
+    }
+
+    .carouselLink a {
+        font-size: 0.8em;
+        width: 100%; /* Make sure it's full width on mobile */
+    }
+}
+
+@media (max-width: 400px) {
+    .carouselItem {
+        padding: 10px;
+        height: 500px; /* Increase height for smaller screens */
+    }
+
+    .carouselItem h1,
+    .carouselItem h3 {
+        font-size: 1.2em;
+    }
+
+    .carouselItem p {
+        font-size: 0.8em;
+    }
+
+    .carouselItem ul {
+
+        font-size: 0.8em; /* Smaller font size for lists on mobile */
+    }
+
+    .carouselLink {
+        width: auto; /* Full width for better touch interaction on mobile */
+    }
+
+    .carouselLink a {
+        font-size: 0.7em;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        margin: 0 3px;
+    }
+}

@@ -1,0 +1,263 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/news/NewsSections.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/* Base styles */
+.NewsSections_pageWrapper__GKJpw {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.NewsSections_newsContainer__t7D4Q {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.NewsSections_videoSectionTitle__CPZgL {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.NewsSections_videoGrid__fKKqQ {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.NewsSections_videoRow__TwWgx {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.NewsSections_newsSection__yCnXg {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1 1;
+}
+
+.NewsSections_newsItem__vtvHA {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.NewsSections_videoItemTitle__nFjVr {
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.NewsSections_videoThumbnail__xmOlf {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.NewsSections_videoPreview__l9hvm, .NewsSections_videoPlayer__Wm4LB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.NewsSections_playButton___fSqG {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.NewsSections_textNewsHeader__rdGbd {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.NewsSections_moreNewsSection__NhLdU {
+  width: 100%;
+}
+
+.NewsSections_textNewsGrid__qrish {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.NewsSections_textNewsRow__N5nQV {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.NewsSections_textNewsItem__V8vkc {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+}
+
+.NewsSections_textNewsItemTitle__2hFxx {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.NewsSections_textNewsItemContent__ZQRDr {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
+
+.NewsSections_readMore__wJjkI {
+  font-size: 12px;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.NewsSections_readMore__wJjkI:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the video description and source link */
+.NewsSections_videoDescription__yhCF0 {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.NewsSections_sourceLink__SJpwG {
+  display: inline-block;
+  margin-top: 5px;
+  color: #0070f3;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.NewsSections_sourceLink__SJpwG:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .NewsSections_videoRow__TwWgx, .NewsSections_textNewsRow__N5nQV {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NewsSections_newsSection__yCnXg, .NewsSections_textNewsItem__V8vkc {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust video preview and player aspect ratio */
+  .NewsSections_videoThumbnail__xmOlf {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: auto;
+  }
+
+  .NewsSections_videoPreview__l9hvm, .NewsSections_videoPlayer__Wm4LB {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .NewsSections_playButton___fSqG {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .NewsSections_videoDescription__yhCF0 {
+    font-size: 12px;
+    margin-top: 8px;
+    padding: 8px;
+  }
+
+  .NewsSections_sourceLink__SJpwG {
+    font-size: 12px;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/SecureTweetEmbed.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.SecureTweetEmbed_tweetEmbedContainer__NLo1t {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SecureTweetEmbed_tweetEmbed__uGWRL {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .SecureTweetEmbed_tweetEmbed__uGWRL iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .SecureTweetEmbed_tweetTitle__JRi3s {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .SecureTweetEmbed_sourceLink__I9CDj {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0070f3;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .SecureTweetEmbed_sourceLink__I9CDj:hover {
+    text-decoration: underline;
+  }
+  
+  .SecureTweetEmbed_error__xZzV8 {
+    color: red;
+    font-size: 16px;
+  }
+  

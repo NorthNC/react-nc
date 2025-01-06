@@ -1,0 +1,275 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/About.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+/* About.module.css */
+
+.About_aboutSection__yJwVd {
+    background-color: #465963;
+    padding: 2rem 0;
+}
+
+.About_aboutContainer__XmYp8 {
+    background-color: #465963;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.About_aboutContainer__XmYp8 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.About_aboutContainer__XmYp8 p {
+    font-size: 1.3em;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.About_email___E8Di {
+    font-style: italic;
+    margin: 30px auto;
+    max-width: 700px;
+    position: relative;
+    background-color: #a4a4a4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.About_email___E8Di p {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/HeroCarousel.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/* HeroCarousel.module.css */
+
+.HeroCarousel_heroSection__7aS1j {
+    background: radial-gradient(circle, rgba(139,139,139,1) 29%, rgba(129,131,136,1) 41%, rgba(114,125,132,1) 52%, rgb(78, 103, 109) 70%, rgb(68, 92, 91) 81%, rgb(30, 45, 40) 100%);
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+.HeroCarousel_heroCarousel__2SQ_2 {
+    max-width: 1320px;
+    width: 100%;
+    height: auto; 
+    margin: 0 auto; /* Center the carousel */
+    padding: 0 15px; /* Add padding for smaller screens */
+    box-sizing: border-box;
+}
+
+.HeroCarousel_carouselItem__zxxrT {
+    width: 100%;
+    height: 450px; /* Make height responsive */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.HeroCarousel_carouselItem__zxxrT h1,
+.HeroCarousel_carouselItem__zxxrT h3 {
+    margin-bottom: 15px; /* Reduce margin for smaller screens */
+    padding: 0 1rem; /* Use rem for better scaling */
+    font-size: 2em; /* Use relative units */
+    text-align: center; /* Always center on mobile */
+}
+
+.HeroCarousel_carouselItem__zxxrT p {
+    margin: 15px 0; /* Reduce margin for smaller screens */
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5em; /* Use relative units */
+}
+
+.HeroCarousel_carouselItem__zxxrT ul {
+    margin-bottom: 15px;
+    padding: 0 1rem;
+    list-style-position: inside;
+    font-size: 1.5em; /* Smaller font size for lists on mobile */
+}
+
+.HeroCarousel_carouselLink__g7eHD {
+    width: 20%; /* Full width for better touch interaction on mobile */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.HeroCarousel_carouselLink__g7eHD a {
+    text-decoration: none;
+    width: 90%; /* Make it wider for easier touch interaction */
+    padding: 10px;
+    background-color: #1c831c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em; /* Use relative units */
+    text-align: center;
+}
+
+.HeroCarousel_carouselLink__g7eHD a:hover {
+    background-color: #4cae4c;
+}
+
+.HeroCarousel_carouselDots__FN7QU {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.HeroCarousel_dot__R9IyP {
+    width: 8px; /* Smaller dots for mobile */
+    height: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.HeroCarousel_activeDot__F9Lj4 {
+    background-color: #333;
+}
+
+.HeroCarousel_dot__R9IyP:hover {
+    background-color: #777;
+}
+
+@media (max-width: 768px) {
+    .HeroCarousel_carouselItem__zxxrT h1,
+    .HeroCarousel_carouselItem__zxxrT h3 {
+        font-size: 1.3em;
+    }
+
+    .HeroCarousel_carouselItem__zxxrT p {
+        font-size: 0.9em;
+    }
+
+    .HeroCarousel_carouselLink__g7eHD a {
+        font-size: 0.8em;
+        width: 100%; /* Make sure it's full width on mobile */
+    }
+}
+
+@media (max-width: 400px) {
+    .HeroCarousel_carouselItem__zxxrT {
+        padding: 10px;
+        height: 500px; /* Increase height for smaller screens */
+    }
+
+    .HeroCarousel_carouselItem__zxxrT h1,
+    .HeroCarousel_carouselItem__zxxrT h3 {
+        font-size: 1.2em;
+    }
+
+    .HeroCarousel_carouselItem__zxxrT p {
+        font-size: 0.8em;
+    }
+
+    .HeroCarousel_carouselItem__zxxrT ul {
+
+        font-size: 0.8em; /* Smaller font size for lists on mobile */
+    }
+
+    .HeroCarousel_carouselLink__g7eHD {
+        width: auto; /* Full width for better touch interaction on mobile */
+    }
+
+    .HeroCarousel_carouselLink__g7eHD a {
+        font-size: 0.7em;
+    }
+
+    .HeroCarousel_dot__R9IyP {
+        width: 6px;
+        height: 6px;
+        margin: 0 3px;
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/NewsTicker.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/* styles/styles.css */
+
+.news-container {
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    overflow: hidden;
+    width: auto;
+    min-width: 100%;
+}
+
+#scrollable-list {
+    overflow: hidden;
+}
+
+.news-container .title {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    z-index: 200;
+    padding: 10px;
+}
+
+.title {
+    height: auto;
+}
+
+.news-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.news-container ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: black;
+    position: relative;
+}
+
+.news-container ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background-color: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li a {
+    color: red;
+    white-space: nowrap;
+}
+
+.news-container ul li:last-child::after {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .news-container {
+        display: none;
+    }
+    
+}

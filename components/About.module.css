@@ -1,0 +1,42 @@
+/* About.module.css */
+
+.aboutSection {
+    background-color: #465963;
+    padding: 2rem 0;
+}
+
+.aboutContainer {
+    background-color: #465963;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.aboutContainer h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.aboutContainer p {
+    font-size: 1.3em;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.email {
+    font-style: italic;
+    margin: 30px auto;
+    max-width: 700px;
+    position: relative;
+    background-color: #a4a4a4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.email p {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
