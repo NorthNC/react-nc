@@ -1,0 +1,113 @@
+{
+    "en": {
+      "breadcrumb": {
+        "home": "Home",
+        "support": "Supporters"
+      },
+      "title": "Our Support Organizations",
+      "intro": "We are grateful for the support of these amazing organizations:",
+      "visitWebsite": "Visit Website",
+      "organizations": {
+        "worldCouncilForHealth": {
+          "name": "World Council for Health",
+          "link": "https://www.worldcouncilforhealth.org/"
+        },
+        "doorToFreedom": {
+          "name": "Door to Freedom",
+          "link": "https://doortofreedom.org/"
+        },
+        "americanHealthFreedom": {
+          "name": "American Health Freedom",
+          "link": "https://www.americansforhealthfreedom.org/"
+        },
+        "mcculloughFundation": {
+          "name": "McCullough Fundation",
+          "link": "https://x.com/mcculloughfund/status/1852010989169914029?s=46&t=zG49j3dgO6EP9uYNOkasrQ"
+        },
+        "capeByronDeclaration": {
+          "name": "The Cape Byron Lighthouse Declaration",
+          "link": "https://lighthousedeclaration.org/"
+        },
+        "ukMedicalFreedom": {
+          "name": "UK Medical Freedom Alliance",
+          "link": "https://www.ukmedfreedom.org/"
+        },
+        "flccc": {
+          "name": "Front Line Covid-19 Critical Care",
+          "link": "https://covid19criticalcare.com/"
+        },
+        "nzDoctorsSpeakingOut": {
+          "name": "New Zealand Doctors Speaking Out with Science",
+          "link": "https://nzdsos.com/"
+        },
+        "novaHealthSupport": {
+          "name": "Nova Health Support",
+          "link": "https://novahealthsupport.se/"
+        },
+        "samenVoorDemocratie": {
+          "name": "Samen Voor Democratie",
+          "link": "https://samenvoordemocratie.be/"
+        },
+        "focusWho": {
+          "name": "Focus Who",
+          "link": "https://focuswho.org/"
+        }
+      }
+    },
+    "fr": {
+      "breadcrumb": {
+        "home": "Accueil",
+        "support": "Partenaires"
+      },
+      "title": "Nos organisations de soutien",
+      "intro": "Nous sommes reconnaissants pour le soutien de ces organisations extraordinaires :",
+      "visitWebsite": "Visitez le site",
+      "organizations": {
+        "worldCouncilForHealth": {
+          "name": "Conseil Mondial de la Santé",
+          "link": "https://www.worldcouncilforhealth.org/"
+        },
+        "doorToFreedom": {
+          "name": "Porte vers la liberté",
+          "link": "https://doortofreedom.org/"
+        },
+        "americanHealthFreedom": {
+          "name": "Liberté Américaine de Santé",
+          "link": "https://www.americansforhealthfreedom.org/"
+        },
+        "mcculloughFundation": {
+          "name": "Fondation McCullough",
+          "link": "https://x.com/mcculloughfund/status/1852010989169914029?s=46&t=zG49j3dgO6EP9uYNOkasrQ"
+        },
+        "capeByronDeclaration": {
+          "name": "La Déclaration de Cape Byron",
+          "link": "https://lighthousedeclaration.org/"
+        },
+        "ukMedicalFreedom": {
+          "name": "Alliance Médicale Britannique pour la Liberté",
+          "link": "https://www.ukmedfreedom.org/"
+        },
+        "flccc": {
+          "name": "Soins Critiques Covid-19 en Première Ligne",
+          "link": "https://covid19criticalcare.com/"
+        },
+        "nzDoctorsSpeakingOut": {
+          "name": "Médecins Néo-Zélandais S'exprimant avec Science",
+          "link": "https://nzdsos.com/"
+        },
+        "novaHealthSupport": {
+          "name": "Soutien Nova Santé",
+          "link": "https://novahealthsupport.se/"
+        },
+        "samenVoorDemocratie": {
+          "name": "Ensemble pour la Démocratie",
+          "link": "https://samenvoordemocratie.be/"
+        },
+        "focusWho": {
+          "name": "Focus Qui",
+          "link": "https://focuswho.org/"
+        }
+      }
+    }
+  }
+  

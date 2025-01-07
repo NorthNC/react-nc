@@ -1,6 +1,6 @@
 {
-  "/news/page": "app/news/page.js",
+  "/page": "app/page.js",
   "/FAQ/page": "app/FAQ/page.js",
-  "/czech/page": "app/czech/page.js",
-  "/page": "app/page.js"
+  "/support/page": "app/support/page.js",
+  "/news/page": "app/news/page.js"
 }

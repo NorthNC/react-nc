@@ -17,7 +17,7 @@
 
 .carouselItem {
     width: 100%;
-    height: 450px; /* Make height responsive */
+    height: 100%; /* Make height responsive */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,7 +51,7 @@
 }
 
 .carouselLink {
-    width: 20%; /* Full width for better touch interaction on mobile */
+    width: 90%; /* Full width for better touch interaction on mobile */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,6 @@
 @media (max-width: 400px) {
     .carouselItem {
         padding: 10px;
-        height: 500px; /* Increase height for smaller screens */
     }
 
     .carouselItem h1,

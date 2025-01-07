@@ -1,0 +1,78 @@
+{
+  "en": {
+    "breadcrumb": {
+      "home": "Home",
+      "news": "News"
+    },
+    "latestNews": "Latest News",
+    "moreNews": "More News",
+    "newsItems": {
+      "breakingNews": {
+        "title": "Breaking News",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "techUpdate": {
+        "title": "Technology Update",
+        "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "sportsHighlights": {
+        "title": "Sports Highlights",
+        "summary": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+    "videos": {
+      "dailyNews": {
+        "title": "Daily News Roundup",
+        "source": {
+          "text": "Source: NewsChannel",
+          "url": "https://newschannel.com"
+        }
+      },
+      "techTrends": {
+        "title": "Tech Trends Weekly",
+        "source": {
+          "text": "Source: TechWave",
+          "url": "https://techwave.com"
+        }
+      }
+    }
+  },
+  "fr": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "news": "Actualités"
+    },
+    "latestNews": "Dernières Nouvelles",
+    "moreNews": "Plus de Nouvelles",
+    "newsItems": {
+      "breakingNews": {
+        "title": "Dernières Nouvelles",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "techUpdate": {
+        "title": "Mise à jour technologique",
+        "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "sportsHighlights": {
+        "title": "Moments forts du sport",
+        "summary": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+    "videos": {
+      "dailyNews": {
+        "title": "Résumé des nouvelles quotidiennes",
+        "source": {
+          "text": "Source: NewsChannel",
+          "url": "https://newschannel.com"
+        }
+      },
+      "techTrends": {
+        "title": "Tendances technologiques hebdomadaires",
+        "source": {
+          "text": "Source: TechWave",
+          "url": "https://techwave.com"
+        }
+      }
+    }
+  }
+}

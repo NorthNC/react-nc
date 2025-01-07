@@ -1,0 +1,243 @@
+{
+  "en": {
+    "pageTitle": "Frequently Asked Questions",
+    "home": "Home",
+    "faq": "FAQ",
+    "searchFAQs": "Search FAQs...",
+    "selectQuestion": "Select a question from the menu to view its answer.",
+    "overview": "Overview",
+    "faqs": [
+      {
+        "id": "1",
+        "question": "What are your opening hours?",
+        "answer": "We're open from 9 AM to 10 PM, seven days a week.",
+        "subItems": [
+          {
+            "id": "1-1",
+            "label": "Weekday Hours",
+            "content": "Monday to Friday: 9 AM - 10 PM"
+          },
+          {
+            "id": "1-2",
+            "label": "Weekend Hours",
+            "content": "Saturday and Sunday: 9 AM - 11 PM"
+          },
+          {
+            "id": "1-3",
+            "label": "Holiday Hours",
+            "content": "We may have special hours on holidays. Please check our website for updates."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Do you offer vegetarian options?",
+        "answer": "Yes, we have a wide range of vegetarian dishes available.",
+        "subItems": [
+          {
+            "id": "2-1",
+            "label": "Vegetarian Starters",
+            "content": "We offer a variety of vegetarian starters, including salads, soups, and appetizers."
+          },
+          {
+            "id": "2-2",
+            "label": "Vegetarian Main Courses",
+            "content": "Our menu features several vegetarian main courses, from pasta dishes to vegetable curries."
+          },
+          {
+            "id": "2-3",
+            "label": "Vegan Options",
+            "content": "We also cater to vegan diets and can modify many dishes to suit your dietary requirements."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Do you take reservations?",
+        "answer": "Yes, we recommend making reservations, especially for weekend dinners.",
+        "subItems": [
+          {
+            "id": "3-1",
+            "label": "Online Booking",
+            "content": "You can make a reservation through our website or using popular restaurant booking apps."
+          },
+          {
+            "id": "3-2",
+            "label": "Phone Booking",
+            "content": "To book by phone, please call us at (123) 456-7890."
+          },
+          {
+            "id": "3-3",
+            "label": "Large Groups",
+            "content": "For groups of 8 or more, please contact us directly to arrange your booking."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Is there a dress code?",
+        "answer": "We have a smart casual dress code for dinner service.",
+        "subItems": [
+          {
+            "id": "4-1",
+            "label": "Acceptable Attire",
+            "content": "Collared shirts or polo shirts for gentlemen, and equivalent attire for ladies."
+          },
+          {
+            "id": "4-2",
+            "label": "Unacceptable Attire",
+            "content": "We kindly ask that guests refrain from wearing beachwear, sports attire, or overly casual clothing during dinner hours."
+          },
+          {
+            "id": "4-3",
+            "label": "Special Events",
+            "content": "For special events, a more formal dress code may be required. Please check the event details."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Are you wheelchair accessible?",
+        "answer": "Yes, our restaurant is fully wheelchair accessible.",
+        "subItems": [
+          {
+            "id": "5-1",
+            "label": "Entrance",
+            "content": "We have a ramp at the entrance for easy wheelchair access."
+          },
+          {
+            "id": "5-2",
+            "label": "Interior",
+            "content": "Our restaurant features wide doorways and ample space between tables to accommodate wheelchairs."
+          },
+          {
+            "id": "5-3",
+            "label": "Restrooms",
+            "content": "We have accessible restrooms on the premises."
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "pageTitle": "Foire Aux Questions",
+    "home": "Accueil",
+    "faq": "FAQ",
+    "searchFAQs": "Rechercher dans les FAQ...",
+    "selectQuestion": "Sélectionnez une question dans le menu pour voir sa réponse.",
+    "overview": "Vue d'ensemble",
+    "faqs": [
+      {
+        "id": "1",
+        "question": "Quels sont vos horaires d'ouverture?",
+        "answer": "Nous sommes ouverts de 9h à 22h, sept jours sur sept.",
+        "subItems": [
+          {
+            "id": "1-1",
+            "label": "Heures en semaine",
+            "content": "Du lundi au vendredi : 9h - 22h"
+          },
+          {
+            "id": "1-2",
+            "label": "Heures du week-end",
+            "content": "Samedi et dimanche : 9h - 23h"
+          },
+          {
+            "id": "1-3",
+            "label": "Heures des vacances",
+            "content": "Nous pouvons avoir des heures spéciales pendant les vacances. Veuillez consulter notre site Web pour les mises à jour."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Proposez-vous des options végétariennes ?",
+        "answer": "Oui, nous avons une large gamme de plats végétariens disponibles.",
+        "subItems": [
+          {
+            "id": "2-1",
+            "label": "Entrées végétariennes",
+            "content": "Nous proposons une variété d'entrées végétariennes, y compris des salades, des soupes et des hors-d'œuvre."
+          },
+          {
+            "id": "2-2",
+            "label": "Plats principaux végétariens",
+            "content": "Notre menu propose plusieurs plats principaux végétariens, des plats de pâtes aux currys de légumes."
+          },
+          {
+            "id": "2-3",
+            "label": "Options véganes",
+            "content": "Nous répondons également aux régimes véganes et pouvons modifier de nombreux plats pour répondre à vos exigences alimentaires."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Prenez-vous des réservations ?",
+        "answer": "Oui, nous recommandons de faire des réservations, en particulier pour les dîners du week-end.",
+        "subItems": [
+          {
+            "id": "3-1",
+            "label": "Réservation en ligne",
+            "content": "Vous pouvez faire une réservation via notre site Web ou en utilisant des applications populaires de réservation de restaurant."
+          },
+          {
+            "id": "3-2",
+            "label": "Réservation par téléphone",
+            "content": "Pour réserver par téléphone, veuillez nous appeler au (123) 456-7890."
+          },
+          {
+            "id": "3-3",
+            "label": "Grands groupes",
+            "content": "Pour les groupes de 8 personnes ou plus, veuillez nous contacter directement pour organiser votre réservation."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Y a-t-il un code vestimentaire ?",
+        "answer": "Nous avons un code vestimentaire smart casual pour le service du dîner.",
+        "subItems": [
+          {
+            "id": "4-1",
+            "label": "Tenue acceptable",
+            "content": "Chemises à col ou polos pour les messieurs, et tenue équivalente pour les dames."
+          },
+          {
+            "id": "4-2",
+            "label": "Tenue inacceptable",
+            "content": "Nous demandons gentiment aux clients de s'abstenir de porter des vêtements de plage, des tenues de sport ou des vêtements trop décontractés pendant les heures de dîner."
+          },
+          {
+            "id": "4-3",
+            "label": "Événements spéciaux",
+            "content": "Pour les événements spéciaux, un code vestimentaire plus formel peut être requis. Veuillez vérifier les détails de l'événement."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Êtes-vous accessible aux fauteuils roulants ?",
+        "answer": "Oui, notre restaurant est entièrement accessible aux fauteuils roulants.",
+        "subItems": [
+          {
+            "id": "5-1",
+            "label": "Entrée",
+            "content": "Nous avons une rampe à l'entrée pour un accès facile en fauteuil roulant."
+          },
+          {
+            "id": "5-2",
+            "label": "Intérieur",
+            "content": "Notre restaurant dispose de larges portes et d'un espace suffisant entre les tables pour accueillir les fauteuils roulants."
+          },
+          {
+            "id": "5-3",
+            "label": "Toilettes",
+            "content": "Nous avons des toilettes accessibles sur place."
+          }
+        ]
+      }
+    ]
+  }
+}
+

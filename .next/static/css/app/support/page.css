@@ -82,3 +82,43 @@ h1 {
       grid-template-columns: 1fr;
   }
 }
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ScrollToTop.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/* button.module.css */
+.ScrollToTop_button__2GWZ9 {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #1c831c;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes it circular */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Default to hidden */
+  }
+  
+  .ScrollToTop_button__2GWZ9:hover {
+    background-color: #0056b3;
+  }
+  
+  .ScrollToTop_chevron__9deCN {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+  
+  /* Show the button only on screens smaller than 768px (typical mobile breakpoint) */
+  @media (max-width: 767px) {
+    .ScrollToTop_button__2GWZ9 {
+      display: flex;
+    }
+  }

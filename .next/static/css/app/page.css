@@ -65,7 +65,7 @@
 
 .HeroCarousel_carouselItem__zxxrT {
     width: 100%;
-    height: 450px; /* Make height responsive */
+    height: 100%; /* Make height responsive */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,7 +99,7 @@
 }
 
 .HeroCarousel_carouselLink__g7eHD {
-    width: 20%; /* Full width for better touch interaction on mobile */
+    width: 90%; /* Full width for better touch interaction on mobile */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,6 @@
 @media (max-width: 400px) {
     .HeroCarousel_carouselItem__zxxrT {
         padding: 10px;
-        height: 500px; /* Increase height for smaller screens */
     }
 
     .HeroCarousel_carouselItem__zxxrT h1,
@@ -199,77 +198,43 @@
         margin: 0 3px;
     }
 }
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/NewsTicker.css ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
-/* styles/styles.css */
-
-.news-container {
-    position: relative;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    background-color: #ffffff;
-    overflow: hidden;
-    width: auto;
-    min-width: 100%;
-}
-
-#scrollable-list {
-    overflow: hidden;
-}
-
-.news-container .title {
-    position: absolute;
-    background-color: red;
-    height: 100%;
-    display: flex;
-    align-items: center;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ScrollToTop.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/* button.module.css */
+.ScrollToTop_button__2GWZ9 {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #1c831c;
     color: white;
-    font-weight: bolder;
-    z-index: 200;
-    padding: 10px;
-}
-
-.title {
-    height: auto;
-}
-
-.news-container ul {
+    border: none;
+    border-radius: 50%; /* Makes it circular */
+    width: 40px;
+    height: 40px;
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow-x: auto;
-}
-
-.news-container ul li {
-    white-space: nowrap;
-    padding: 10px 24px;
-    color: black;
-    position: relative;
-}
-
-.news-container ul li::after {
-    content:"";
-    width: 1px;
-    height: 100%;
-    background-color: #b8b8b8;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.news-container ul li a {
-    color: red;
-    white-space: nowrap;
-}
-
-.news-container ul li:last-child::after {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .news-container {
-        display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Default to hidden */
+  }
+  
+  .ScrollToTop_button__2GWZ9:hover {
+    background-color: #0056b3;
+  }
+  
+  .ScrollToTop_chevron__9deCN {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+  
+  /* Show the button only on screens smaller than 768px (typical mobile breakpoint) */
+  @media (max-width: 767px) {
+    .ScrollToTop_button__2GWZ9 {
+      display: flex;
     }
-    
-}
+  }

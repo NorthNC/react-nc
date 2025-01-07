@@ -1,3 +1,32 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/VideoPlayer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.VideoPlayer_videoContainer__sU3oF {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .VideoPlayer_video__J7TfI {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .VideoPlayer_placeholder__wb1fm {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  
+  
 /*!*************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/NewsBox.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************/
@@ -36,7 +65,7 @@
     display: inline-block;
     margin: 10px;
     padding: 8px 16px;
-    background-color: #0070f3;
+    background-color: #1c831c;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -93,84 +122,43 @@
     justify-content: center;
     margin-bottom: 2rem;
   }
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/SecureTweetEmbed.module.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
-.SecureTweetEmbed_tweetEmbedContainer__NLo1t {
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.SecureTweetEmbed_tweetEmbed__uGWRL {
-  position: relative;
-  padding-bottom: 75%; 
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  background: #fff;
-  border-radius: 8px;
-}
-
-.SecureTweetEmbed_tweetEmbed__uGWRL iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.SecureTweetEmbed_tweetTitle__JRi3s {
-  font-size: 14px;
-  margin-top: 5px;
-  color: #333;
-}
-
-.SecureTweetEmbed_sourceLink__I9CDj {
-  display: inline-block;
-  margin-top: 5px;
-  color: #0070f3;
-  font-weight: bold;
-  font-size: 12px;
-  text-decoration: none;
-}
-
-.SecureTweetEmbed_sourceLink__I9CDj:hover {
-  text-decoration: underline;
-}
-
-.SecureTweetEmbed_error__xZzV8 {
-  color: red;
-  font-size: 14px;
-}
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/VideoPlayer.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ScrollToTop.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
-.VideoPlayer_videoContainer__sU3oF {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .VideoPlayer_video__J7TfI {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .VideoPlayer_placeholder__wb1fm {
-    width: 100%;
-    height: 450px;
+/* button.module.css */
+.ScrollToTop_button__2GWZ9 {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #1c831c;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes it circular */
+    width: 40px;
+    height: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
-    color: #666;
-    font-size: 1.2rem;
-    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Default to hidden */
   }
   
+  .ScrollToTop_button__2GWZ9:hover {
+    background-color: #0056b3;
+  }
   
+  .ScrollToTop_chevron__9deCN {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+  
+  /* Show the button only on screens smaller than 768px (typical mobile breakpoint) */
+  @media (max-width: 767px) {
+    .ScrollToTop_button__2GWZ9 {
+      display: flex;
+    }
+  }

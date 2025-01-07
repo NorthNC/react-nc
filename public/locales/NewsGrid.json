@@ -1,0 +1,54 @@
+{
+    "en": {
+        "header": "Our Member Countries",
+        "countries": {
+        "Belgium": { "name": "Belgium", "summary": "Available!" },
+        "Croatia": { "name": "Croatia", "summary": "Available!" },
+        "Czech Republic": { "name": "Czech Republic", "summary": "Available!" },
+        "Denmark": { "name": "Denmark", "summary": "Available!" },
+        "Estonia": { "name": "Estonia", "summary": "Available!" },
+        "Finland": { "name": "Finland", "summary": "Available!" },
+        "Greenland": { "name": "Greenland", "summary": "Available!" },
+        "Hungary": { "name": "Hungary", "summary": "Available!" },
+        "Iceland": { "name": "Iceland", "summary": "Available!" },
+        "Ireland": { "name": "Ireland", "summary": "Available!" },
+        "Latvia": { "name": "Latvia", "summary": "Available!" },
+        "Lithuania": { "name": "Lithuania", "summary": "Available!" },
+        "Malta": { "name": "Malta", "summary": "Available!" },
+        "Netherlands": { "name": "Netherlands", "summary": "Available!" },
+        "Norway": { "name": "Norway", "summary": "Available!" },
+        "Portugal": { "name": "Portugal", "summary": "Available!" },
+        "Spain": { "name": "Spain", "summary": "Available!" },
+        "Sweden": { "name": "Sweden", "summary": "Available!" },
+        "United Kingdom": { "name": "United Kingdom", "summary": "Available!" }
+        },
+        "button": "Download Documents"
+    },
+
+    "fr": {
+        "header": "Nos Pays Membres",
+        "countries": {
+            "Belgium": { "name": "Belgique", "summary": "Disponible!" },
+            "Croatia": { "name": "Croatie", "summary": "Disponible!" },
+            "Czech Republic": { "name": "République tchèque", "summary": "Disponible!" },
+            "Denmark": { "name": "Danemark", "summary": "Disponible!" },
+            "Estonia": { "name": "Estonie", "summary": "Disponible!" },
+            "Finland": { "name": "Finlande", "summary": "Disponible!" },
+            "Greenland": { "name": "Groenland", "summary": "Disponible!" },
+            "Hungary": { "name": "Hongrie", "summary": "Disponible!" },
+            "Iceland": { "name": "Islande", "summary": "Disponible!" },
+            "Ireland": { "name": "Irlande", "summary": "Disponible!" },
+            "Latvia": { "name": "Lettonie", "summary": "Disponible!" },
+            "Lithuania": { "name": "Lituanie", "summary": "Disponible!" },
+            "Malta": { "name": "Malte", "summary": "Disponible!" },
+            "Netherlands": { "name": "Pays-Bas", "summary": "Disponible!" },
+            "Norway": { "name": "Norvège", "summary": "Disponible!" },
+            "Portugal": { "name": "Portugal", "summary": "Disponible!" },
+            "Spain": { "name": "Espagne", "summary": "Disponible!" },
+            "Sweden": { "name": "Suède", "summary": "Disponible!" },
+            "United Kingdom": { "name": "Royaume-Uni", "summary": "Disponible!" }
+        },
+        "button": "Télécharger les documents"
+          }
+  }
+  

@@ -1,0 +1,52 @@
+{
+  "en": {
+    "logoAlt": "North Logo",
+    "countries": {
+      "Denmark": "Denmark",
+      "Latvia": "Latvia",
+      "Norway": "Norway",
+      "Sweden": "Sweden",
+      "Czech Republic": "Czech Republic",
+      "Estonia": "Estonia",
+      "Lithuania": "Lithuania",
+      "Iceland": "Iceland",
+      "Finland": "Finland",
+      "Greenland": "Greenland",
+      "Ireland": "Ireland",
+      "Portugal": "Portugal",
+      "UK": "United Kingdom",
+      "Malta": "Malta",
+      "Belgium": "Belgium",
+      "Hungary": "Hungary",
+      "Netherlands": "Netherlands",
+      "Croatia": "Croatia",
+      "Spain": "Spain"
+    },
+    "selectLanguage": "Language:"
+  },
+  "fr": {
+    "logoAlt": "Logo Nord",
+    "countries": {
+      "Denmark": "Danemark",
+      "Latvia": "Lettonie",
+      "Norway": "Norvège",
+      "Sweden": "Suède",
+      "Czech Republic": "République tchèque",
+      "Estonia": "Estonie",
+      "Lithuania": "Lituanie",
+      "Iceland": "Islande",
+      "Finland": "Finlande",
+      "Greenland": "Groenland",
+      "Ireland": "Irlande",
+      "Portugal": "Portugal",
+      "UK": "Royaume-Uni",
+      "Malta": "Malte",
+      "Belgium": "Belgique",
+      "Hungary": "Hongrie",
+      "Netherlands": "Pays-Bas",
+      "Croatia": "Croatie",
+      "Spain": "Espagne"
+    },
+    "selectLanguage": "Langue :"
+  }
+}

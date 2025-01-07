@@ -12,17 +12,6 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/news/page.css",
-      "static/chunks/app/news/page.js"
-    ],
-    "/api/video/[id]/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/video/[id]/route.js"
-    ],
     "/FAQ/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -35,11 +24,16 @@
       "static/css/app/support/page.css",
       "static/chunks/app/support/page.js"
     ],
-    "/czech/page": [
+    "/news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/czech/page.css",
-      "static/chunks/app/czech/page.js"
+      "static/css/app/news/page.css",
+      "static/chunks/app/news/page.js"
+    ],
+    "/api/video/[id]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/video/[id]/route.js"
     ]
   }
 }

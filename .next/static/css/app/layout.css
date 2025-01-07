@@ -123,15 +123,52 @@ body {
   text-align: center;
 }
 
-.language-dropdown {
-  margin-top: 20px;
+.language-container {
+  margin-bottom: 1rem;
+}
+
+/* styles/globals.css */
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.language-container {
+  color: white; /* Set text color to white */
+  /* Additional styling can be added here */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.language-container label {
+  margin-right: 10px; /* Space between label and select */
+  font-weight: bold; /* Make the label text bold for better visibility */
+}
+
+.language-container select {
+  background-color: #444; /* Dark background for select */
+  color: white; /* Ensure options text is also white */
+  border: 1px solid #c7c7c7; /* Border for the select */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.language-container select option {
+  background-color: #444; /* Dark background for options */
+}
+
+/* Adjust for better visibility when option is selected */
+.language-container select:focus,
+.language-container select:active {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow */
 }
 
 /* Breadcrumb Styles */
 .breadcrumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px 15px;
   background-color: #8a8a8a;
   font-size: 19px; /* Reduced font size for better mobile readability */
@@ -140,6 +177,8 @@ body {
 }
 
 .breadcrumb-list {
+  max-width: 1320px;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
   display: flex;
@@ -180,28 +219,6 @@ body {
   .breadcrumb-item span {
     max-width: 100px; /* Further reduction for mobile */
   }
-}
-
-/* news page css here */
-
-.page-wrapper {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-/* Example continuation */
-.news-container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.news-header {
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 /* News Grid styles */
@@ -278,6 +295,7 @@ body {
 .social-links {
   display: flex;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 .social-links a {

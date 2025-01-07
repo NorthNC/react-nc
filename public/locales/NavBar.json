@@ -1,0 +1,22 @@
+{
+  "en": {
+    "links": {
+      "home": "Home",
+      "faq": "FAQ",
+      "news": "News",
+      "supporters": "Supporters",
+      "contact": "Contact"
+    },
+    "selectLanguage": "Language:"
+  },
+  "fr": {
+    "links": {
+      "home": "Accueil",
+      "faq": "FAQ",
+      "news": "News",
+      "supporters": "Partisans",
+      "contact": "Contact"
+    },
+    "selectLanguage": "Langue :"
+  }
+}

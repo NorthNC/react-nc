@@ -1,41 +1,49 @@
+"use client";
 
-import Image from 'next/image'
-import Link from 'next/link'
-
+import Image from "next/image";
+import Link from "next/link";
+import { useTranslation } from "@/components/hooks/useTranslation";
 
 const newsItems = [
-  { title: 'Czech Republic', image: '/members/czech-republic-flag.jpg', summary: 'Avaliable!', detailLink: './czech' },
-  { title: 'Denmark', image: '/members/danish-flag.jpg', summary: 'Avaliable!', detailLink: './denmark' },
-  { title: 'Estonia', image: '/members/estonia-flag.jpg', summary: 'Avaliable!', detailLink: './estonia' },
-  { title: 'Finland', image: '/members/finland-flag.jpg', summary: 'Avaliable!', detailLink: './finland' },
-  { title: 'Greenland', image: '/members/greenland-flag.png', summary: 'Avaliable!', detailLink: './greenland' },
-  { title: 'Iceland', image: '/members/iceland-flag.jpg', summary: 'Avaliable!', detailLink: './iceland' },
-  { title: 'Ireland', image: '/members/ireland-flag.jpg', summary: 'Avaliable!', detailLink: './ireland' },
-  { title: 'Latvia', image: '/members/latvia-flag.jpg', summary: 'Avaliable!', detailLink: './latvia' },
-  { title: 'Lithuania', image: '/members/lithuanian-flag.jpg', summary: 'Avaliable!', detailLink: './lithuania' },
-  { title: 'Norway', image: '/members/norway-flag.jpg', summary: 'Avaliable!', detailLink: './norway' },
-  { title: 'Portugal', image: '/members/portugal-flag.jpg', summary: 'Avaliable!', detailLink: './portugal' },
-  { title: 'Sweden', image: '/members/swedish-flag.jpg', summary: 'Avaliable!', detailLink: './sweden' },
-  { title: 'United Kingdom', image: '/members/united-kingdom-flag.jpg', summary: 'Avaliable!', detailLink: './uk' },
-  
-]
+  { key: "Belgium", image: "/members/belgium-flag.jpg", detailLink: "./belgium" },
+  { key: "Croatia", image: "/members/croatia-flag.jpg", detailLink: "./croatia" },
+  { key: "Czech Republic", image: "/members/czech-republic-flag.jpg", detailLink: "./czech" },
+  { key: "Denmark", image: "/members/danish-flag.jpg", detailLink: "./denmark" },
+  { key: "Estonia", image: "/members/estonia-flag.jpg", detailLink: "./estonia" },
+  { key: "Finland", image: "/members/finland-flag.jpg", detailLink: "./finland" },
+  { key: "Greenland", image: "/members/greenland-flag.png", detailLink: "./greenland" },
+  { key: "Hungary", image: "/members/hungarian-flag.jpg", detailLink: "./hungary" },
+  { key: "Iceland", image: "/members/iceland-flag.jpg", detailLink: "./iceland" },
+  { key: "Ireland", image: "/members/ireland-flag.jpg", detailLink: "./ireland" },
+  { key: "Latvia", image: "/members/latvia-flag.jpg", detailLink: "./latvia" },
+  { key: "Lithuania", image: "/members/lithuanian-flag.jpg", detailLink: "./lithuania" },
+  { key: "Malta", image: "/members/malta-flag.png", detailLink: "./malta" },
+  { key: "Netherlands", image: "/members/holland-flag.jpg", detailLink: "./netherlands" },
+  { key: "Norway", image: "/members/norway-flag.jpg", detailLink: "./norway" },
+  { key: "Portugal", image: "/members/portugal-flag.jpg", detailLink: "./portugal" },
+  { key: "Spain", image: "/members/spanish-flag.jpeg", detailLink: "./spain" },
+  { key: "Sweden", image: "/members/swedish-flag.jpg", detailLink: "./sweden" },
+  { key: "United Kingdom", image: "/members/united-kingdom-flag.jpg", detailLink: "./uk" }
+];
 
 export default function NewsGrid() {
+  const { t } = useTranslation("NewsGrid"); // Use the NewsGrid translations
+
   return (
     <section className="news">
-      <h1 className='header-news'>Our Member Countries</h1>
-        <div className="news-grid">
-          {newsItems.map((item, index) => (
-              <div className="news-item" key={index}>
-                <Image src={item.image} alt={item.title} width={300} height={300} />
-                <h3>{item.title}</h3>
-                <p>{item.summary}</p>
-                <Link href={item.detailLink}>
-                  <button>Download Documents</button>
-                </Link>
-              </div>
-          ))}
-        </div>
+      <h1 className="header-news">{t("header", "Our Member Countries")}</h1>
+      <div className="news-grid">
+        {newsItems.map((item, index) => (
+          <div className="news-item" key={index}>
+            <Image src={item.image} alt={t(`countries.${item.key}.name`)} width={300} height={300} />
+            <h3>{t(`countries.${item.key}.name`)}</h3>
+            <p>{t(`countries.${item.key}.summary`, "Available!")}</p>
+            <Link href={item.detailLink}>
+              <button>{t("button", "Download Documents")}</button>
+            </Link>
+          </div>
+        ))}
+      </div>
     </section>
-  )
+  );
 }

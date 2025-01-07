@@ -1,7 +1,7 @@
-/*!************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/FAQ/styles/FAQPage.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************/
-.faq-page {
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./styles/FAQpage.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.FAQpage_faqPage__EHzoK {
     display: flex;
     margin: 0 auto;
     max-width: 1600px;
@@ -10,12 +10,12 @@
     gap: 20px;
   }
   
-  .faq-sidebar {
+  .FAQpage_faqSidebar__qRP7E {
     width: 600px;
     flex-shrink: 0;
   }
   
-  .faq-content {
+  .FAQpage_faqContent__qzJ3p {
     flex-grow: 1;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -23,7 +23,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .faq-search {
+  .FAQpage_faqSearch__DZxyI {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -31,16 +31,16 @@
     border-radius: 5px;
   }
   
-  .faq-nav {
+  .FAQpage_faqNav__dQ5js {
     display: flex;
     flex-direction: column;
   }
   
-  .faq-nav-item {
+  .FAQpage_faqNavItem__qSn4X {
     margin-bottom: 10px;
   }
   
-  .faq-nav-button {
+  .FAQpage_faqNavButton__SWOky {
     width: 100%;
     padding: 10px;
     text-align: left;
@@ -56,30 +56,30 @@
     align-items: center;
   }
   
-  .faq-nav-button:hover,
-  .faq-nav-button.active {
+  .FAQpage_faqNavButton__SWOky:hover,
+  .FAQpage_faqNavButtonActive__6kkf8 {
     background-color: #f0f0f0;
     border-left-color: #007bff;
   }
   
-  .faq-chevron {
+  .FAQpage_faqChevron__gU7JY {
     width: 20px;
     height: 20px;
     transition: transform 0.3s ease;
   }
   
-  .faq-nav-button.active .faq-chevron {
+  .FAQpage_faqNavButtonActive__6kkf8 .FAQpage_faqChevron__gU7JY {
     transform: rotate(180deg);
   }
   
-  .faq-dropdown {
+  .FAQpage_faqDropdown__z_fLP {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
     margin-top: 5px;
   }
   
-  .faq-dropdown-item {
+  .FAQpage_faqDropdownItem__xWIrY {
     padding: 5px 10px;
     text-align: left;
     background: none;
@@ -89,18 +89,18 @@
     transition: all 0.3s ease;
   }
   
-  .faq-dropdown-item:hover,
-  .faq-dropdown-item.highlighted {
+  .FAQpage_faqDropdownItem__xWIrY:hover,
+  .FAQpage_faqDropdownItemHighlighted__oRslD {
     background-color: #e0e0e0;
     color: #007bff;
   }
   
-  .faq-detail h2 {
+  .FAQpage_faqDetail___7LX_ h2 {
     margin-top: 0;
     color: #007bff;
   }
   
-  .faq-placeholder {
+  .FAQpage_faqPlaceholder__OcR_1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,18 +109,17 @@
     font-style: italic;
   }
   
-  .mobile-menu-toggle {
+  .FAQpage_mobileMenuToggle__nSwCa {
     display: none;
   }
   
-  /* Mobile styles */
   @media (max-width: 768px) {
-    .faq-page {
+    .FAQpage_faqPage__EHzoK {
       flex-direction: column;
       position: relative;
     }
-    
-    .faq-sidebar {
+  
+    .FAQpage_faqSidebar__qRP7E {
       width: 100%;
       position: fixed;
       top: 0;
@@ -131,55 +130,57 @@
       transition: left 0.3s ease;
       overflow-y: auto;
     }
-    
-    .faq-sidebar.open {
+  
+    .FAQpage_faqSidebarOpen__4svza {
       left: 0;
     }
-    
-    .mobile-menu-toggle {
+  
+    .FAQpage_mobileMenuToggle__nSwCa {
       display: block;
-      position: fixed; /* Changed from absolute to fixed */
-      z-index: 1002; /* Higher z-index to ensure it's above sidebar */
+      position: fixed;
+      z-index: 1002;
       background: none;
       border: none;
       font-size: 24px;
       cursor: pointer;
-      /* Position when inactive */
-      top: 50%;
+      top: 60%;
       left: 85%;
       transform: translate(-50%, -50%);
       transition: all 0.3s ease;
     }
-    
-    .mobile-menu-toggle.active {
-      /* Position when active */
+  
+    .FAQpage_mobileMenuToggleActive__3D6y6 {
       top: 20px;
       right: 20px;
       left: auto;
       transform: translate(0, 0);
     }
-    
-    .faq-content {
+  
+    .FAQpage_faqContent__qzJ3p {
       margin-top: 60px;
     }
-    
-    .faq-search {
+  
+    .FAQpage_faqSearch__DZxyI {
       margin-top: 60px;
     }
   }
   
-  /* Add some basic page styling */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./styles/ClientFAQ.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.ClientFAQ_container___y7Ir {
+    padding: 20px;
   }
   
-  h1 {
+  .ClientFAQ_title__Fb8Ib {
     text-align: center;
     margin-bottom: 30px;
-    color: #000000;
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  .ClientFAQ_breadcrumbContainer__XTq5N {
+    margin-bottom: 20px;
   }
   
   
