@@ -1,6 +1,7 @@
 {
   "en": {
     "logoAlt": "North Logo",
+    "selectLanguage": "Language:",
     "countries": {
       "Denmark": "Denmark",
       "Latvia": "Latvia",
@@ -21,17 +22,17 @@
       "Netherlands": "Netherlands",
       "Croatia": "Croatia",
       "Spain": "Spain"
-    },
-    "selectLanguage": "Language:"
+    }
   },
   "fr": {
     "logoAlt": "Logo Nord",
+    "selectLanguage": "Langue :",
     "countries": {
       "Denmark": "Danemark",
       "Latvia": "Lettonie",
       "Norway": "Norvège",
       "Sweden": "Suède",
-      "Czech Republic": "République tchèque",
+      "Czech Republic": "République Tchèque",
       "Estonia": "Estonie",
       "Lithuania": "Lituanie",
       "Iceland": "Islande",
@@ -46,7 +47,6 @@
       "Netherlands": "Pays-Bas",
       "Croatia": "Croatie",
       "Spain": "Espagne"
-    },
-    "selectLanguage": "Langue :"
+    }
   }
 }
