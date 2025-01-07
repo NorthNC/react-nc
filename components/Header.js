@@ -52,7 +52,7 @@ const countriesKeys = [
 const languages = ["en", "fr"]; // List of available languages
 
 export default function Header() {
-  const { t, language, changeLanguage } = useTranslation("Header");
+  const { t, language, changeLanguage } = useTranslation("header");
 
   const northLogo = "/logos/north-logo.png";
   const logosPerSide = Math.floor(logos.length / 2);
