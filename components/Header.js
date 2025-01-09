@@ -98,7 +98,7 @@ export default function Header() {
 
         {/* Center North Logo */}
         <div className="north-logo">
-          <Image src={northLogo} alt={t("logoAlt")} width={200} height={200} />
+          <Image src={northLogo} alt={t("logoAlt")} width={250} height={250} />
         </div>
 
         {/* Right Column */}
