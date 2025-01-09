@@ -44,7 +44,7 @@ export default function VideoPlayer({ videoId }) {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const videoUrl = await response.url;  // Assuming the API returns the URL to the video
+        const videoUrl = response.url; // Assuming the API returns the URL to the video
         setVideoSrc(videoUrl);
       } catch (err) {
         setError(err.message);
@@ -57,6 +57,10 @@ export default function VideoPlayer({ videoId }) {
       fetchVideo();
     }
   }, [videoId, isVisible]);
+
+  const handleContextMenu = (e) => {
+    e.preventDefault();
+  };
 
   if (loading && !error && isVisible) {
     return <div className={styles.placeholder}>Loading video...</div>;
@@ -72,12 +76,18 @@ export default function VideoPlayer({ videoId }) {
 
   return (
     <div className={styles.videoContainer}>
-      <video 
-        ref={videoRef} 
-        src={videoSrc} 
-        controls 
+      <div
+        className={styles.videoOverlay}
+        onContextMenu={handleContextMenu}
+      />
+      <video
+        ref={videoRef}
+        src={videoSrc}
+        controls
         className={styles.video}
         aria-label="Video player"
+        onContextMenu={handleContextMenu}
+        controlsList="nodownload noremoteplayback"
       >
         Your browser does not support the video tag.
       </video>

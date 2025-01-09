@@ -16,10 +16,7 @@
     z-index: 1000;
     display: none; /* Default to hidden */
   }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
+
   
   .chevron {
     width: 0;

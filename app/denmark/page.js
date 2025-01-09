@@ -11,23 +11,25 @@ export default function DownloadPage() {
     <>
         <Breadcrumb items={breadcrumbItems} />
       <div className={styles.container}>
-      <div className={styles.box}>
-        <h1 className={styles.title}>Download PDFs</h1>
-        <div className={styles.linkContainer}>
-          <Link 
-            href="/document1.pdf" 
-            download
-            className={`${styles.link} ${styles.link1}`}
-          >
-            Download Document 1
-          </Link>
-          <Link 
-            href="/document2.pdf" 
-            download
-            className={`${styles.link} ${styles.link2}`}
-          >
-            Download Document 2
-          </Link>
+      <div className={styles.background}>
+        <div className={styles.box}>
+          <h1 className={styles.title}>Download PDFs</h1>
+          <div className={styles.linkContainer}>
+            <Link 
+              href="/document1.pdf" 
+              download
+              className={`${styles.link} ${styles.link1}`}
+            >
+              Download Document 1
+            </Link>
+            <Link 
+              href="/document2.pdf" 
+              download
+              className={`${styles.link} ${styles.link2}`}
+            >
+              Download Document 2
+            </Link>
+          </div>
         </div>
       </div>
     </div>
