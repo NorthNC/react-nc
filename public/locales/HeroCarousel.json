@@ -13,7 +13,7 @@
         "Experience Unique Features"
       ],
       "links": [
-        "/welcome",
+        "./locales/pdfs/carouselPDF/press_release_uk.pdf",
         "/solutions",
         "/community",
         "/features"
