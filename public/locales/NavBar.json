@@ -5,7 +5,9 @@
       "faq": "FAQ",
       "news": "News",
       "supporters": "Supporters",
-      "contact": "Contact"
+      "contact": "Contact",
+      "press": "Press Releases"
+
     },
     "selectLanguage": "Language:"
   },
@@ -15,7 +17,8 @@
       "faq": "FAQ",
       "news": "News",
       "supporters": "Partisans",
-      "contact": "Contact"
+      "contact": "Contact",
+      "press": "Press Releases"
     },
     "selectLanguage": "Langue :"
   }

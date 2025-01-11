@@ -6,6 +6,7 @@ import styles from './page.module.css';
 import ScrollToTopButton from '@/components/ScrollToTop';
 import Breadcrumb from '@/components/BreadCrumb';
 import { useTranslation } from '@/components/hooks/useTranslation';
+import PressReleases from '@/components/PressReleases';
 
 export default function NewsPage() {
   const { t } = useTranslation('news'); // Load translations for 'news'

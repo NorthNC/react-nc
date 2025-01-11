@@ -1,73 +1,73 @@
 {
-    "en": {
-      "texts": [
-        "A growing list of national representatives and international experts demand an immediate suspension of COVID-19 modified mRNA vaccines. Ireland joined NORTH on 28th November, followed by the Czech Republic and Portugal this past week. Questions have been raised by members of parliament in the Swedish and Danish parliaments. Representatives of several other European countries are lining up to join the NORTH initiative next week.",
-        "Notice of extreme concern about COVID-19 modified mRNA vaccine safety and quality to prime ministers and governing bodies In the Nordic and Baltic countries and the United Kingdom. Excessive levels of residual DNA identified in Australian samples, confirming data from France, Germany, Canada, and the USA. The introduction of foreign DNA into cells via lipid nanoparticles (LNPs) may damage human DNA leading to genomic instability, cancer, and other extremely serious conditions.",
-        "Our letter of concern, co-signed by physicians, scientists, politicians, and other qualified professionals calls for the immediate suspension of COVID-19 modified mRNA vaccines and an investigation into the presence of excessive levels of residual DNA in multiple vials, which is a serious, unquantified risk to human health. This lay summary explains the background to these concerns.",
-        "Experience Unique Features"
-      ],
-      "headers": [
-        "Press release (English version)",
-        "Letter of concern (English version)",
-        "Lay summary to prime ministers and politicians (English version)",
-        "Experience Unique Features"
-      ],
-      "links": [
-        "./locales/pdfs/carouselPDF/press_release_uk.pdf",
-        "/solutions",
-        "/community",
-        "/features"
-      ],
-      "additionalH3": {
-        "0": "BREAKING NEWS – 8th December 2024 – Expanding NORTH!"
-      },
-      "uniqueFeatures": {
-        "description": "Discover unparalleled aspects of our platform:",
-        "features": {
-          "interactiveEngagement": "Interactive Engagement",
-          "advancedSecurity": "Advanced Security",
-          "customizableUserExperience": "Customizable User Experience"
-        },
-        "linkText": "Download PDF"
-      },
-      "general": {
-        "linkText": "Download PDF"
-      }
+  "en": {
+    "texts": [
+      "A growing list of national representatives and international experts demand an immediate suspension of COVID-19 modified mRNA vaccines. Ireland joined NORTH on 28th November, followed by the Czech Republic and Portugal this past week. Questions have been raised by members of parliament in the Swedish and Danish parliaments. Representatives of several other European countries are lining up to join the NORTH initiative next week.",
+      "Notice of extreme concern about COVID-19 modified mRNA vaccine safety and quality to prime ministers and governing bodies In the Nordic and Baltic countries and the United Kingdom. Excessive levels of residual DNA identified in Australian samples, confirming data from France, Germany, Canada, and the USA. The introduction of foreign DNA into cells via lipid nanoparticles (LNPs) may damage human DNA leading to genomic instability, cancer, and other extremely serious conditions.",
+      "Our letter of concern, co-signed by physicians, scientists, politicians, and other qualified professionals calls for the immediate suspension of COVID-19 modified mRNA vaccines and an investigation into the presence of excessive levels of residual DNA in multiple vials, which is a serious, unquantified risk to human health. This lay summary explains the background to these concerns.",
+      "Experience Unique Features"
+    ],
+    "headers": [
+      "Press release (English version)",
+      "Letter of concern (English version)",
+      "Lay summary to prime ministers and politicians (English version)",
+      "Experience Unique Features"
+    ],
+    "links": [
+      "/pdfs/press_release_uk.pdf",
+      "/pdfs/NORTH_Group_Summary-2024-11-25_UK.pdf",
+      "/pdfs/lay_summary_en.pdf",
+      "/features"
+    ],
+    "additionalH3": {
+      "0": "BREAKING NEWS – 8th December 2024 – Expanding NORTH!"
     },
-    "fr": {
-      "texts": [
-        "Une liste croissante de représentants nationaux et d'experts internationaux demande une suspension immédiate des vaccins à ARNm modifiés COVID-19. L'Irlande a rejoint NORTH le 28 novembre, suivie par la République tchèque et le Portugal la semaine dernière. Des questions ont été soulevées par des membres des parlements suédois et danois. Les représentants de plusieurs autres pays européens se préparent à rejoindre l'initiative NORTH la semaine prochaine.",
-        "Avis de préoccupation extrême concernant la sécurité et la qualité des vaccins à ARNm modifiés COVID-19 aux premiers ministres et aux organes dirigeants des pays nordiques et baltes ainsi que du Royaume-Uni. Des niveaux excessifs d'ADN résiduel identifiés dans des échantillons australiens, confirmant les données de France, d'Allemagne, du Canada et des États-Unis. L'introduction d'ADN étranger dans les cellules via des nanoparticules lipidiques (LNP) peut endommager l'ADN humain, entraînant une instabilité génomique, un cancer et d'autres conditions extrêmement graves.",
-        "Notre lettre de préoccupation, cosignée par des médecins, des scientifiques, des politiciens et d'autres professionnels qualifiés, demande la suspension immédiate des vaccins à ARNm modifiés COVID-19 et une enquête sur la présence de niveaux excessifs d'ADN résiduel dans plusieurs flacons, ce qui représente un risque sérieux et non quantifié pour la santé humaine. Ce résumé explique le contexte de ces préoccupations.",
-        "Découvrez des fonctionnalités uniques"
-      ],
-      "headers": [
-        "Communiqué de presse (version française)",
-        "Lettre de préoccupation (version française)",
-        "Résumé à l'intention des premiers ministres et politiciens (version française)",
-        "Découvrez des fonctionnalités uniques"
-      ],
-      "links": [
-        "/accueil",
-        "/solutions",
-        "/communauté",
-        "/fonctionnalités"
-      ],
-      "additionalH3": {
-        "0": "DERNIÈRES NOUVELLES – 8 décembre 2024 – NORTH s'élargit !"
+    "uniqueFeatures": {
+      "description": "Discover unparalleled aspects of our platform:",
+      "features": {
+        "interactiveEngagement": "Interactive Engagement",
+        "advancedSecurity": "Advanced Security",
+        "customizableUserExperience": "Customizable User Experience"
       },
-      "uniqueFeatures": {
-        "description": "Découvrez des aspects inégalés de notre plateforme :",
-        "features": {
-          "interactiveEngagement": "Engagement interactif",
-          "advancedSecurity": "Sécurité avancée",
-          "customizableUserExperience": "Expérience utilisateur personnalisable"
-        },
-        "linkText": "Télécharger le PDF"
+      "linkText": "Download PDF"
+    },
+    "general": {
+      "linkText": "Download PDF"
+    }
+  },
+  "fr": {
+    "texts": [
+      "Une liste croissante de représentants nationaux et d'experts internationaux demande une suspension immédiate des vaccins à ARNm modifiés COVID-19. L'Irlande a rejoint NORTH le 28 novembre, suivie par la République tchèque et le Portugal la semaine dernière. Des questions ont été soulevées par des membres des parlements suédois et danois. Les représentants de plusieurs autres pays européens se préparent à rejoindre l'initiative NORTH la semaine prochaine.",
+      "Avis de préoccupation extrême concernant la sécurité et la qualité des vaccins à ARNm modifiés COVID-19 aux premiers ministres et aux organes dirigeants des pays nordiques et baltes ainsi que du Royaume-Uni. Des niveaux excessifs d'ADN résiduel identifiés dans des échantillons australiens, confirmant les données de France, d'Allemagne, du Canada et des États-Unis. L'introduction d'ADN étranger dans les cellules via des nanoparticules lipidiques (LNP) peut endommager l'ADN humain, entraînant une instabilité génomique, un cancer et d'autres conditions extrêmement graves.",
+      "Notre lettre de préoccupation, cosignée par des médecins, des scientifiques, des politiciens et d'autres professionnels qualifiés, demande la suspension immédiate des vaccins à ARNm modifiés COVID-19 et une enquête sur la présence de niveaux excessifs d'ADN résiduel dans plusieurs flacons, ce qui représente un risque sérieux et non quantifié pour la santé humaine. Ce résumé explique le contexte de ces préoccupations.",
+      "Découvrez des fonctionnalités uniques"
+    ],
+    "headers": [
+      "Communiqué de presse (version française)",
+      "Lettre de préoccupation (version française)",
+      "Résumé à l'intention des premiers ministres et politiciens (version française)",
+      "Découvrez des fonctionnalités uniques"
+    ],
+    "links": [
+      "/pdfs/press_release_uk.pdf",
+      "/pdfs/NORTH_Group_Summary-2024-11-25_UK.pdf",
+      "/pdfs/lay_summary_fr.pdf",
+      "/fonctionnalites"
+    ],
+    "additionalH3": {
+      "0": "DERNIÈRES NOUVELLES – 8 décembre 2024 – NORTH s'élargit !"
+    },
+    "uniqueFeatures": {
+      "description": "Découvrez des aspects inégalés de notre plateforme :",
+      "features": {
+        "interactiveEngagement": "Engagement interactif",
+        "advancedSecurity": "Sécurité avancée",
+        "customizableUserExperience": "Expérience utilisateur personnalisable"
       },
-      "general": {
-        "linkText": "Télécharger le PDF"
-      }
+      "linkText": "Télécharger le PDF"
+    },
+    "general": {
+      "linkText": "Télécharger le PDF"
     }
   }
-  
+}
+

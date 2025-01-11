@@ -12,6 +12,52 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/FAQ/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/FAQ/page.css",
+      "static/chunks/app/FAQ/page.js"
+    ],
+    "/pressreleases/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pressreleases/page.css",
+      "static/chunks/app/pressreleases/page.js"
+    ],
+    "/api/pdf/[...path]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/pdf/[...path]/route.js"
+    ],
+    "/belgium/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/belgium/page.css",
+      "static/chunks/app/belgium/page.js"
+    ],
+    "/news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/news/page.css",
+      "static/chunks/app/news/page.js"
+    ],
+    "/api/video/[id]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/video/[id]/route.js"
+    ],
+    "/support/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/support/page.css",
+      "static/chunks/app/support/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

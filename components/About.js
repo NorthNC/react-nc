@@ -17,6 +17,20 @@ export default function About() {
             <a href="mailto:info@northgroup.info">info@northgroup.info</a>
           </p>
         </div>
+        <section className={styles.section}>
+        <h3>What is the problem?</h3>
+        <p>Describe the problem your company is addressing here.</p>
+      </section>
+      
+      <section className={styles.section}>
+        <h3>What is NORTH doing about it?</h3>
+        <p>Explain the actions and initiatives NORTH is taking to address the problem.</p>
+      </section>
+      
+      <section className={styles.section}>
+        <h3>What should you do about it?</h3>
+        <p>Provide information on how individuals can contribute or take action regarding the problem.</p>
+      </section>
       </div>
     </section>
   );

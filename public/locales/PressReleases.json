@@ -1,0 +1,75 @@
+{
+    "en": {
+      "pageTitle": "Press Releases",
+      "selectCountry": "Select Country:",
+      "countries": {
+        "usa": "USA",
+        "uk": "UK"
+      },
+      "usa": {
+        "releases": {
+          "1": {
+            "title": "New Product Launch in USA",
+            "date": "2023-06-01",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "2": {
+            "title": "Q2 Financial Results for USA",
+            "date": "2023-07-15",
+            "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
+      },
+      "uk": {
+        "releases": {
+          "1": {
+            "title": "UK Market Expansion",
+            "date": "2023-05-20",
+            "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "2": {
+            "title": "New Partnership in UK",
+            "date": "2023-07-01",
+            "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      }
+    },
+    "fr": {
+      "pageTitle": "Communiqués de presse",
+      "selectCountry": "Sélectionnez un pays :",
+      "countries": {
+        "usa": "États-Unis",
+        "uk": "Royaume-Uni"
+      },
+      "usa": {
+        "releases": {
+          "1": {
+            "title": "Lancement d'un nouveau produit aux États-Unis",
+            "date": "2023-06-01",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "2": {
+            "title": "Résultats financiers du T2 pour les États-Unis",
+            "date": "2023-07-15",
+            "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
+      },
+      "uk": {
+        "releases": {
+          "1": {
+            "title": "Expansion du marché au Royaume-Uni",
+            "date": "2023-05-20",
+            "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "2": {
+            "title": "Nouveau partenariat au Royaume-Uni",
+            "date": "2023-07-01",
+            "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      }
+    }
+  }
+  

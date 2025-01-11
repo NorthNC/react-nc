@@ -1,37 +1,42 @@
-import Link from 'next/link'
-import styles from './page.module.css'
-import Breadcrumb from '@/components/BreadCrumb'
+import Link from 'next/link';
+import styles from './page.module.css';
+import Breadcrumb from '@/components/BreadCrumb';
 
-export default function DownloadPage() {
-    const breadcrumbItems = [
-        { href: '/', label: 'Home' },
-        { href: '/belgium', label: 'Belgium' },
-      ];
+export default function BelgiumPage() {
+  // List of PDF files to display as download links
+  const pdfs = [
+    { filename: 'goup_letter_belgium.pdf', label: 'Download Document 1' },
+    { filename: 'lay_summary_belgium.pdf', label: 'Download Document 2' },
+    { filename: 'North_Group.pdf', label: 'Download North Group Report' },
+  ];
+
+  // Breadcrumb navigation
+  const breadcrumbItems = [
+    { href: '/', label: 'Home' },
+    { href: '/belgium', label: 'Belgium' },
+  ];
+
   return (
     <>
-        <Breadcrumb items={breadcrumbItems} />
+      <Breadcrumb items={breadcrumbItems} />
       <div className={styles.container}>
-      <div className={styles.box}>
-        <h1 className={styles.title}>Download PDFs</h1>
-        <div className={styles.linkContainer}>
-          <Link 
-            href="/document1.pdf" 
-            download
-            className={`${styles.link} ${styles.link1}`}
-          >
-            Download Document 1
-          </Link>
-          <Link 
-            href="/document2.pdf" 
-            download
-            className={`${styles.link} ${styles.link2}`}
-          >
-            Download Document 2
-          </Link>
+        <div className={styles.box}>
+          <h1 className={styles.title}>Download PDFs for Belgium</h1>
+          <div className={styles.linkContainer}>
+            {pdfs.map((pdf, index) => (
+              <Link
+                key={index}
+                href={`/belgium/pdf/${pdf.filename}`}
+                target="_blank" // Open in a new tab
+                rel="noopener noreferrer" // Security best practice
+                className={`${styles.link} ${styles[`link${index + 1}`]}`}
+              >
+                {pdf.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
-

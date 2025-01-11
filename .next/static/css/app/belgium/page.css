@@ -1,0 +1,62 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/belgium/page.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.page_container__lJUul {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+  
+  .page_box__AeTyL {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .page_title__b32N7 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .page_linkContainer__WFBGz {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .page_link__4zG_v {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .page_link1__PwJJq {
+    background-color: #3498db;
+  }
+  
+  .page_link1__PwJJq:hover {
+    background-color: #2980b9;
+  }
+  
+  .page_link2__juO_i {
+    background-color: #2ecc71;
+  }
+  
+  .page_link2__juO_i:hover {
+    background-color: #27ae60;
+  }
+  
+  

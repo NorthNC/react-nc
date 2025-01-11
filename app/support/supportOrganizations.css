@@ -11,6 +11,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
 .intro {
   text-align: center;
   color: #666;

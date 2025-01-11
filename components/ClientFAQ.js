@@ -6,24 +6,24 @@ import Breadcrumb from '@/components/BreadCrumb';
 import styles from '../styles/ClientFAQ.module.css';
 
 export default function ClientFAQ() {
-  const { t, language } = useTranslation('FAQ');
+  const { t } = useTranslation('FAQ');
+
+  // Retrieve translated FAQ data
+  const faqData = t('faqs', []); // Default to an empty array if 'faqs' key is missing
+
+  // Debug to check the data structure
+  console.log('FAQ Data:', faqData);
 
   const breadcrumbItems = [
     { href: '/', label: t('home', 'Home') },
     { href: '/FAQ', label: t('faq', 'FAQ') },
   ];
 
-  const faqData = t('faqs', []);
-
-  console.log('FAQ Data:', faqData);
-
   return (
     <div>
-        <Breadcrumb items={breadcrumbItems} />
-
-      <h1 className={styles.title}>{t('pageTitle', 'FAQ')}</h1>
+      <Breadcrumb items={breadcrumbItems} />
+      <h1 className={styles.title}>{t('pageTitle', 'Frequently Asked Questions')}</h1>
       <FAQPage faqs={faqData} />
     </div>
   );
 }
-

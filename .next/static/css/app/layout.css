@@ -2,68 +2,120 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./styles/NavBar.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************/
 .NavBar_navbar___LVQF {
-    background-color: #515f66;
-    padding: 10px 20px;
-    height: 60px;
+  background-color: #515f66;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.NavBar_navList__VNAxW {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.NavBar_navList__VNAxW li {
+  margin: 0 10px;
+  position: relative; /* Required for submenu positioning */
+}
+
+.NavBar_navList__VNAxW li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.NavBar_menuToggle__S78cy {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.NavBar_hasSubMenu__xYgVD {
+  cursor: pointer;
+}
+
+.NavBar_subMenuLink__s218W {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.NavBar_arrowDown__kMPJk {
+  margin-left: 5px;
+  font-size: 18px;
+  padding-top: 2px; /* Added padding to adjust arrow position */
+}
+
+.NavBar_subMenu__WR7Ji {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(81, 95, 102, 0.95); /* Adjusted background to avoid see-through */
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.NavBar_subMenu__WR7Ji li {
+  padding: 5px 20px;
+}
+
+.NavBar_subMenu__WR7Ji li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.NavBar_subMenu__WR7Ji.NavBar_open__UwJ40 {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .NavBar_navbar___LVQF {
+    height: auto;
   }
-  
-  .NavBar_navList__VNAxW {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-    max-width: 1320px;
-    margin: 0 auto;
-  }
-  
-  .NavBar_navList__VNAxW li {
-    margin: 0 10px;
-  }
-  
-  .NavBar_navList__VNAxW li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
+
   .NavBar_menuToggle__S78cy {
+    display: block;
+  }
+
+  .NavBar_navList__VNAxW {
     display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 34px;
-    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
-  
-  @media (max-width: 768px) {
 
-    .NavBar_navbar___LVQF {
-      height: auto;
-    }
-
-    .NavBar_menuToggle__S78cy {
-      display: block;
-    }
-  
-    .NavBar_navList__VNAxW {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-    }
-  
-    .NavBar_navList__VNAxW.NavBar_open__UwJ40 {
-      display: flex;
-    }
-  
-    .NavBar_navList__VNAxW li {
-      margin: 10px 0;
-    }
+  .NavBar_navList__VNAxW.NavBar_open__UwJ40 {
+    display: flex;
   }
-  
-  
+
+  .NavBar_navList__VNAxW li {
+    margin: 10px 0;
+  }
+
+  .NavBar_subMenu__WR7Ji {
+    position: static;
+    background-color: #515f66;
+  }
+
+  .NavBar_subMenu__WR7Ji li {
+    padding: 5px 0;
+  }
+}
+
 /*!****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/globals.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************/
@@ -296,6 +348,7 @@ body {
   display: flex;
   gap: 1rem;
   padding-top: 1rem;
+  font-size: 20px;
 }
 
 .social-links a {

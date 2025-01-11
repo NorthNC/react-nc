@@ -1,37 +1,42 @@
-import Link from 'next/link'
-import styles from './page.module.css'
-import Breadcrumb from '@/components/BreadCrumb'
+import Link from 'next/link';
+import styles from './page.module.css';
+import Breadcrumb from '@/components/BreadCrumb';
 
-export default function DownloadPage() {
-    const breadcrumbItems = [
-        { href: '/', label: 'Home' },
-        { href: '/croatia', label: 'Croatia' },
-      ];
+export default function CroatiaPage() {
+  // List of PDF files to display as preview links
+  const pdfs = [
+    { filename: 'north_letter_croatia.pdf', label: 'View Document 1' },
+    { filename: 'lay_summary_croatia.pdf', label: 'View Document 2' },
+    { filename: 'North_Group.pdf', label: 'View North Group Report' },
+  ];
+
+  // Breadcrumb navigation
+  const breadcrumbItems = [
+    { href: '/', label: 'Home' },
+    { href: '/croatia', label: 'Croatia' },
+  ];
+
   return (
     <>
-        <Breadcrumb items={breadcrumbItems} />
+      <Breadcrumb items={breadcrumbItems} />
       <div className={styles.container}>
-      <div className={styles.box}>
-        <h1 className={styles.title}>Download PDFs</h1>
-        <div className={styles.linkContainer}>
-          <Link 
-            href="/document1.pdf" 
-            download
-            className={`${styles.link} ${styles.link1}`}
-          >
-            Download Document 1
-          </Link>
-          <Link 
-            href="/document2.pdf" 
-            download
-            className={`${styles.link} ${styles.link2}`}
-          >
-            Download Document 2
-          </Link>
+        <div className={styles.box}>
+          <h1 className={styles.title}>Preview PDFs for Croatia</h1>
+          <div className={styles.linkContainer}>
+            {pdfs.map((pdf, index) => (
+              <Link
+                key={index}
+                href={`/croatia/pdf/${pdf.filename}`} // Directly links to the file
+                target="_blank" // Opens in a new tab for preview
+                rel="noopener noreferrer" // Security best practice
+                className={`${styles.link} ${styles[`link${index + 1}`]}`}
+              >
+                {pdf.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
-

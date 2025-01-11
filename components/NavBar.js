@@ -22,7 +22,8 @@ const NavBar = () => {
         <li><Link href="/FAQ" onClick={closeMenu}>{t("links.faq", "FAQ")}</Link></li>
         <li><Link href="/news" onClick={closeMenu}>{t("links.news", "Media")}</Link></li>
         <li><Link href="/support" onClick={closeMenu}>{t("links.supporters", "Supporters")}</Link></li>
-        <li><Link href="/#aboutScroll" onClick={closeMenu}>{t("links.contact", "Contact")}</Link></li>
+        <li><Link href="/about" onClick={closeMenu}>{t("links.contact", "Contact")}</Link></li>
+        <li><Link href="/pressreleases" onClick={closeMenu}>{t("links.press", "Press Releases")}</Link></li>
       </ul>
     </nav>
   );

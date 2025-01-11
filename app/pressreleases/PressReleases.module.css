@@ -1,0 +1,96 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .pageTitle {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .countrySelector {
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .release {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    line-height: 1.6;
+  }
+  
+  .downloadContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .downloadButton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1c831c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .downloadButton:hover {
+    background-color: #4cae4c;
+  }
+  
+  @media (max-width: 600px) {
+    .release {
+      flex-direction: column;
+    }
+  
+    .content {
+      padding-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .downloadContainer {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
+  

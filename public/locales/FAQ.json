@@ -4,7 +4,7 @@
     "home": "Home",
     "faq": "FAQ",
     "searchFAQs": "Search FAQs...",
-    "selectQuestion": "Select a question from the menu to the write to view its answer.",
+    "selectQuestion": "Select a question from the menu to the right to view its answer.",
     "overview": "Overview",
     "faqs": [
       {
@@ -240,4 +240,3 @@
     ]
   }
 }
-

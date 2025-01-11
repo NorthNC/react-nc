@@ -7,7 +7,7 @@ import { useTranslation } from "@/components/hooks/useTranslation";
 const newsItems = [
   { key: "Belgium", image: "/members/belgium-flag.jpg", detailLink: "./belgium" },
   { key: "Croatia", image: "/members/croatia-flag.jpg", detailLink: "./croatia" },
-  { key: "Czech Republic", image: "/members/czech-republic-flag.jpg", detailLink: "./czech" },
+  { key: "Czech Republic", image: "/members/czech-republic-flag.jpg", detailLink: "./czech-republic" },
   { key: "Denmark", image: "/members/danish-flag.jpg", detailLink: "./denmark" },
   { key: "Estonia", image: "/members/estonia-flag.jpg", detailLink: "./estonia" },
   { key: "Finland", image: "/members/finland-flag.jpg", detailLink: "./finland" },

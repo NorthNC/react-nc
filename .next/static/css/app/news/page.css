@@ -1,0 +1,235 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/VideoPlayer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.VideoPlayer_videoContainer__sU3oF {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .VideoPlayer_video__J7TfI {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .VideoPlayer_placeholder__wb1fm {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/NewsBox.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.NewsBox_newsBox__JmZCT {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .NewsBox_newsBox__JmZCT:hover {
+    transform: translateY(-5px);
+  }
+  
+  .NewsBox_image__pFA6a {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .NewsBox_title__EUt2Y {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px;
+  }
+  
+  .NewsBox_summary__6w5Hx {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px;
+    line-height: 1.4;
+  }
+  
+  .NewsBox_link__ukWl6 {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #1c831c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NewsBox_link__ukWl6:hover {
+    background-color: #0051a2;
+  }
+  
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/news/page.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.page_container__uzzYi {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page_title__3ubX5 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .page_newsGrid__LLqaP {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .page_NewsBoxHeader__Jkwf1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page_videoTitle__6Vdx7 {
+    /* Add your styling here */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .page_videoReference__5P24q {
+    /* Add your styling here */
+    font-size: smaller;
+    color: grey;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ScrollToTop.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/* button.module.css */
+.ScrollToTop_button__2GWZ9 {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #1c831c;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes it circular */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Default to hidden */
+  }
+
+  
+  .ScrollToTop_chevron__9deCN {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+  
+  /* Show the button only on screens smaller than 768px (typical mobile breakpoint) */
+  @media (max-width: 767px) {
+    .ScrollToTop_button__2GWZ9 {
+      display: flex;
+    }
+  }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/PressReleases.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.PressReleases_container__rtgQ2 {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .PressReleases_title__uFBjX {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .PressReleases_releaseList__fS_jU {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .PressReleases_releaseItem__2H5me {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .PressReleases_releaseInfo___oQiK {
+    flex: 1 1;
+  }
+  
+  .PressReleases_releaseTitle__ct2Or {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 5px 0;
+  }
+  
+  .PressReleases_releaseDate__RozT8 {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px 0;
+  }
+  
+  .PressReleases_releaseSummary__rtLVS {
+    font-size: 14px;
+    color: #444;
+    margin: 0;
+  }
+  
+  .PressReleases_downloadLink__efVMM {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PressReleases_downloadLink__efVMM:hover {
+    background-color: #0052a3;
+  }
+  
+  .PressReleases_noReleases__MFpZH {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+  }
+  
+  

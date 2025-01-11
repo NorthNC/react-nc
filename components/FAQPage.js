@@ -140,7 +140,7 @@ export default function FAQPage({ faqs }) {
           </div>
         ) : (
           <div className={styles.faqPlaceholder}>
-            <p>Select a question from the menu to view its answer.</p>
+            <p>Select a question from the menu to the right to view its answer.</p>
           </div>
         )}
       </div>

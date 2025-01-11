@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react";
 import styles from "./HeroCarousel.module.css";
-import { useTranslation } from "@/components/hooks/useTranslation"; // Import the translation hook
+import { useTranslation } from "@/components/hooks/useTranslation";
 
 export default function HeroCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const { t } = useTranslation("HeroCarousel"); // Use translations for HeroCarousel
+  const { t } = useTranslation("HeroCarousel");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -24,6 +24,12 @@ export default function HeroCarousel() {
   const links = t("links", []);
   const additionalH3 = t("additionalH3", {});
 
+  // Map links to the clean public URL
+  const resolvedLinks = links.map((link) => {
+    const filename = link.split("/").pop(); // Extract the file name
+    return `/pdfs/${filename}`; // Use the clean URL
+  });
+
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroCarousel}>
@@ -38,7 +44,13 @@ export default function HeroCarousel() {
                 <li>{t("uniqueFeatures.features.customizableUserExperience", "Customizable User Experience")}</li>
               </ul>
               <div className={styles.carouselLink}>
-                <a href={links[currentSlide]}>{t("uniqueFeatures.linkText", "Download PDF")}</a>
+                <a
+                  href={resolvedLinks[currentSlide]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t("uniqueFeatures.linkText", "Download PDF")}
+                </a>
               </div>
             </>
           ) : (
@@ -47,7 +59,13 @@ export default function HeroCarousel() {
               {additionalH3[currentSlide] && <h3>{additionalH3[currentSlide]}</h3>}
               <p>{texts[currentSlide]}</p>
               <div className={styles.carouselLink}>
-                <a href={links[currentSlide]}>{t("general.linkText", "Download PDF")}</a>
+                <a
+                  href={resolvedLinks[currentSlide]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t("general.linkText", "Download PDF")}
+                </a>
               </div>
             </>
           )}
