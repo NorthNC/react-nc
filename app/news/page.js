@@ -81,7 +81,7 @@ export default function NewsPage() {
             <NewsBox key={item.id} {...item} />
           ))}
         </div>
-        {/* <RumbleEmbed videoId="v66mbz1" /> */}
+        <RumbleEmbed videoId="v66mbz1" />
       </div>
     </>
   );
