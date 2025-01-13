@@ -9,6 +9,8 @@ export default function DenmarkPage() {
   const pdfs = [
     { filename: 'NORTH_Group_Letter-2024-11-25_DENMARK.pdf', label: 'View Document 1' },
     { filename: 'NORTH_Group_Summary-2024-11-25_DENMARK.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_DENMARK.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_DENMARK.pdf', label: 'View Document 2' },
   ];
 
   // Breadcrumb navigation

@@ -1,12 +1,8 @@
 {
-  "/api/video/[id]/route": "app/api/video/[id]/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/pdf/[...path]/route": "app/api/pdf/[...path]/route.js",
   "/page": "app/page.js",
-  "/news/page": "app/news/page.js",
-  "/FAQ/page": "app/FAQ/page.js",
-  "/support/page": "app/support/page.js",
+  "/czech-republic/page": "app/czech-republic/page.js",
+  "/denmark/page": "app/denmark/page.js",
   "/about/page": "app/about/page.js",
-  "/pressreleases/page": "app/pressreleases/page.js",
-  "/belgium/page": "app/belgium/page.js"
+  "/news/page": "app/news/page.js"
 }

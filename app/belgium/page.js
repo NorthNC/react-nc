@@ -7,7 +7,6 @@ export default function BelgiumPage() {
   const pdfs = [
     { filename: 'goup_letter_belgium.pdf', label: 'Download Document 1' },
     { filename: 'lay_summary_belgium.pdf', label: 'Download Document 2' },
-    { filename: 'North_Group.pdf', label: 'Download North Group Report' },
   ];
 
   // Breadcrumb navigation

@@ -233,3 +233,56 @@
   }
   
   
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/RumbleEmbed.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.RumbleEmbed_iframeWrapper__V5WzK {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+  }
+  
+  .RumbleEmbed_iframe__y_Uhf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .RumbleEmbed_placeholder__m_QyX {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ccc;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .RumbleEmbed_consentButton__3RxJI {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .RumbleEmbed_consentButton__3RxJI:hover {
+    background-color: #0056b3;
+  }
+  
