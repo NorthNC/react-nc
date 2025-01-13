@@ -7,7 +7,6 @@ export default function CroatiaPage() {
   const pdfs = [
     { filename: 'north_letter_croatia.pdf', label: 'View Document 1' },
     { filename: 'lay_summary_croatia.pdf', label: 'View Document 2' },
-    { filename: 'North_Group.pdf', label: 'View North Group Report' },
   ];
 
   // Breadcrumb navigation
