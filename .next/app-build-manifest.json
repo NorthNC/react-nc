@@ -12,40 +12,22 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/api/pdf/[...path]/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/pdf/[...path]/route.js"
-    ],
     "/belgium/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/belgium/page.css",
       "static/chunks/app/belgium/page.js"
     ],
-    "/croatia/page": [
+    "/api/pdf/[...path]/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/croatia/page.css",
-      "static/chunks/app/croatia/page.js"
+      "static/chunks/app/api/pdf/[...path]/route.js"
     ],
-    "/czech-republic/page": [
+    "/FAQ/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/czech-republic/page.css",
-      "static/chunks/app/czech-republic/page.js"
-    ],
-    "/denmark/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/denmark/page.css",
-      "static/chunks/app/denmark/page.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
+      "static/css/app/FAQ/page.css",
+      "static/chunks/app/FAQ/page.js"
     ],
     "/news/page": [
       "static/chunks/webpack.js",
@@ -57,6 +39,24 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/video/[id]/route.js"
+    ],
+    "/support/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/support/page.css",
+      "static/chunks/app/support/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
+    ],
+    "/pressreleases/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pressreleases/page.css",
+      "static/chunks/app/pressreleases/page.js"
     ]
   }
 }

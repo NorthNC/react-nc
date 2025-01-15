@@ -1,7 +1,7 @@
 {
-  "/denmark/page": "app/denmark/page.js",
-  "/news/page": "app/news/page.js",
-  "/page": "app/page.js",
-  "/czech-republic/page": "app/czech-republic/page.js",
-  "/about/page": "app/about/page.js"
+  "/FAQ/page": "app/FAQ/page.js",
+  "/support/page": "app/support/page.js",
+  "/about/page": "app/about/page.js",
+  "/pressreleases/page": "app/pressreleases/page.js",
+  "/news/page": "app/news/page.js"
 }
