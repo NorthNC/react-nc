@@ -1,0 +1,432 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./styles/NavBar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.NavBar_navbar___LVQF {
+  background-color: #515f66;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.NavBar_navList__VNAxW {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.NavBar_navList__VNAxW li {
+  margin: 0 10px;
+  position: relative; /* Required for submenu positioning */
+  border-right: 2px solid #ccc; /* Add a vertical line */
+  padding-right: 30px; /* Add space between the link and the line */
+}
+
+.NavBar_navList__VNAxW li:last-child {
+  border-right: none; /* Remove the line after the last link */
+}
+
+.NavBar_navList__VNAxW li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.NavBar_menuToggle__S78cy {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.NavBar_hasSubMenu__xYgVD {
+  cursor: pointer;
+}
+
+.NavBar_subMenuLink__s218W {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.NavBar_arrowDown__kMPJk {
+  margin-left: 5px;
+  font-size: 18px;
+  padding-top: 2px; /* Added padding to adjust arrow position */
+}
+
+.NavBar_subMenu__WR7Ji {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(81, 95, 102, 0.95); /* Adjusted background to avoid see-through */
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.NavBar_subMenu__WR7Ji li {
+  padding: 5px 20px;
+}
+
+.NavBar_subMenu__WR7Ji li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.NavBar_subMenu__WR7Ji.NavBar_open__UwJ40 {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .NavBar_navbar___LVQF {
+    height: auto;
+  }
+
+  .NavBar_navList__VNAxW li {
+    border-right: none; /* Remove lines in mobile view */
+    padding-right: 0; /* Adjust padding */
+  }
+
+  .NavBar_menuToggle__S78cy {
+    display: block;
+  }
+
+  .NavBar_navList__VNAxW {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .NavBar_navList__VNAxW.NavBar_open__UwJ40 {
+    display: flex;
+  }
+
+  .NavBar_navList__VNAxW li {
+    margin: 10px 0;
+  }
+
+  .NavBar_subMenu__WR7Ji {
+    position: static;
+    background-color: #515f66;
+  }
+
+  .NavBar_subMenu__WR7Ji li {
+    padding: 5px 0;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/globals.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle, rgba(139,139,139,1) 29%, rgba(129,131,136,1) 41%, rgba(114,125,132,1) 52%, rgba(96,119,125,1) 70%, rgba(81,113,112,1) 81%, rgba(72,106,95,1) 100%);
+  padding-top: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.country-name {
+  margin: 5px 0 0 0; /* Add some space between image and text */
+  color: #fff;
+}
+
+.north-logo {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.language-container {
+  margin-bottom: 1rem;
+}
+
+/* styles/globals.css */
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.language-container {
+  color: white; /* Set text color to white */
+  /* Additional styling can be added here */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.language-container label {
+  margin-right: 10px; /* Space between label and select */
+  font-weight: bold; /* Make the label text bold for better visibility */
+}
+
+.language-container select {
+  background-color: #444; /* Dark background for select */
+  color: white; /* Ensure options text is also white */
+  border: 1px solid #c7c7c7; /* Border for the select */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.language-container select option {
+  background-color: #444; /* Dark background for options */
+}
+
+/* Adjust for better visibility when option is selected */
+.language-container select:focus,
+.language-container select:active {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow */
+}
+
+/* Breadcrumb Styles */
+.breadcrumb {
+  padding: 10px 15px;
+  background-color: #8a8a8a;
+  font-size: 19px; /* Reduced font size for better mobile readability */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.breadcrumb-list {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping on mobile */
+}
+
+.breadcrumb-item {
+  margin-right: 0.5rem;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item span {
+  color: #ffffff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px; /* Adjust based on your design needs */
+}
+
+.breadcrumb-item.active span {
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+.separator {
+  margin: 0 0.25rem;
+  color: #ffffff;
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  .breadcrumb {
+    font-size: 15px; /* Smaller font for mobile */
+    padding: 5px 10px; /* Reduced padding for mobile */
+  }
+
+  .breadcrumb-item a,
+  .breadcrumb-item span {
+    max-width: 100px; /* Further reduction for mobile */
+  }
+}
+
+/* News Grid styles */
+
+/* .news {
+
+  background: #90a5ac;
+} */
+
+.header-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 40px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.news-item button {
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #1c831c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: min(3vw, 1rem);
+}
+
+.news-item button:hover {
+  background-color: #4cae4c;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-links a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #4CAF50;
+}
+
+/* Cookie Consent styles */
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-consent p {
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.cookie-consent button,
+.cookie-settings button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cookie-consent button:first-of-type {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cookie-consent button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+.cookie-settings {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.cookie-settings button {
+  background-color: #2196F3;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-row {
+   display: none;
+  }
+}

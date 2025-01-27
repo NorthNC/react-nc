@@ -7,8 +7,10 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function NorwayPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_NORWAY.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_NORWAY.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Letter_NORWAY.pdf', label: 'Bekymringsbrev' },
+    { filename: 'NORTH_Group_Summary_NORWAY.pdf', label: 'Faktaunderlag bekymringsbrev' },
+    { filename: 'press_release_norway.pdf', label: 'Pressemelding 16 Jan 2025' },
+    { filename: 'Follow_Up_Letter_NORTH_NORWAY.pdf', label: 'Oppfølgingsbrev' },
   ];
 
   // Breadcrumb navigation

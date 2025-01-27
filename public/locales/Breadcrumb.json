@@ -1,14 +1,19 @@
 {
     "en": {
-      "Home": "Home",
-      "FAQ": "FAQ",
-      "News": "News",
-      "Supporters": "Supports",
-      "Contact": "Contact"
+      "home": "Home",
+      "responses": "Official Responses",
+      "news": "News",
+      "supporters": "Supporters",
+      "legal": "Legal",
+      "facts": "Facts",
+      "press": "Press Release",
+      "about": "s"
+
     },
     "fr": {
       "home": "Accueil",
       "about": "À propos",
+      "news": "À propos",
       "services": "Services",
       "contact": "Contact"
     }

@@ -28,12 +28,21 @@
     padding: 20px;
 }
 
-.carouselItem h1,
+.carouselItem h1 {
+    font-size: 2em; /* Use relative units */
+    margin-bottom: 15px; /* Reduce margin for smaller screens */
+    padding: 0 1rem; /* Use rem for better scaling */
+    text-align: center; /* Always center on mobile */
+}
+
+
+
 .carouselItem h3 {
     margin-bottom: 15px; /* Reduce margin for smaller screens */
     padding: 0 1rem; /* Use rem for better scaling */
-    font-size: 2em; /* Use relative units */
+    font-size: 1.5em; /* Use relative units */
     text-align: center; /* Always center on mobile */
+    color: red;
 }
 
 .carouselItem p {
@@ -49,6 +58,9 @@
     list-style-position: inside;
     font-size: 1.5em; /* Smaller font size for lists on mobile */
 }
+.carouselItem li {
+    font-weight: 600;
+}
 
 .carouselLink {
     width: 90%; /* Full width for better touch interaction on mobile */
@@ -60,7 +72,7 @@
 
 .carouselLink a {
     text-decoration: none;
-    width: 90%; /* Make it wider for easier touch interaction */
+    width: 40%; /* Make it wider for easier touch interaction */
     padding: 10px;
     background-color: #1c831c;
     color: white;
@@ -108,7 +120,14 @@
     }
 
     .carouselItem p {
-        font-size: 0.9em;
+        font-size: 1em;
+    }
+
+    .carouselItem ul {
+        font-size: 1em; /* Smaller font size for lists on mobile */
+    }
+    .carouselItem li {
+        font-weight: 600;
     }
 
     .carouselLink a {
@@ -142,6 +161,7 @@
 
     .carouselLink a {
         font-size: 0.7em;
+        width: 100%;
     }
 
     .dot {

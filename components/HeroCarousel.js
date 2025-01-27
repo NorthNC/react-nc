@@ -37,11 +37,12 @@ export default function HeroCarousel() {
           {currentSlide === texts.length - 1 ? (
             <>
               <h2>{headers[currentSlide]}</h2>
-              <p>{t("uniqueFeatures.description", "Discover unparalleled aspects of our platform:")}</p>
+              <p>{t("uniqueFeatures.description", "Here you can download a PDF file with the list of signatories organised by:")}</p>
               <ul>
-                <li>{t("uniqueFeatures.features.interactiveEngagement", "Interactive Engagement")}</li>
-                <li>{t("uniqueFeatures.features.advancedSecurity", "Advanced Security")}</li>
-                <li>{t("uniqueFeatures.features.customizableUserExperience", "Customizable User Experience")}</li>
+                <li>{t("uniqueFeatures.features.interactiveEngagement", "Signatures from elected officials")}</li>
+                <li>{t("uniqueFeatures.features.advancedSecurity", "Endorsements from supporting organisations")}</li>
+                <li>{t("uniqueFeatures.features.customizableUserExperience", "Signatures from NORTH Group member countries (alphabetically by country)")}</li>
+                <li>{t("uniqueFeatures.features.internationalsupport", "Signatures from international supporters (alphabetically by country)")}</li>
               </ul>
               <div className={styles.carouselLink}>
                 <a

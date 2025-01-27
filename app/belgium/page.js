@@ -5,9 +5,8 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function BelgiumPage() {
   // List of PDF files to display as download links
   const pdfs = [
-    { filename: 'goup_letter_belgium.pdf', label: 'Download Document 1' },
-    { filename: 'lay_summary_belgium.pdf', label: 'Download Document 2' },
-    { filename: 'North_Group.pdf', label: 'Download North Group Report' },
+    { filename: 'goup_letter_belgium.pdf', label: 'Brief van bezorgdheid' },
+    { filename: 'lay_summary_belgium.pdf', label: 'Lekensamenvatting' },
   ];
 
   // Breadcrumb navigation

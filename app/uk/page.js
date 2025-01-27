@@ -7,8 +7,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function UKPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_UK.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_UK.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Letter-2024-11-25_UK.pdf', label: 'Letter of concern' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_UK.pdf', label: 'Lay summary' },
+    { filename: 'Follow_Up_Letter_NORTH_UK.pdf', label: 'Follow up Letter' },
   ];
 
   // Breadcrumb navigation

@@ -3,8 +3,11 @@
 import { useState } from 'react';
 import { useTranslation } from '@/components/hooks/useTranslation';
 import styles from './PressReleases.module.css';
+import Breadcrumb from '@/components/BreadCrumb';
 
 function PressRelease({ release }) {
+
+  
   return (
     <div className={styles.release}>
       <div className={styles.content}>
@@ -39,6 +42,12 @@ function PressReleaseList({ releases }) {
 export default function PressReleases() {
   const { t } = useTranslation('PressReleases');
   const [selectedCountry, setSelectedCountry] = useState('usa');
+
+
+  const breadcrumbItems = [
+    { href: '/', label: t('breadcrumb.home', 'Home') },
+    { href: '/news', label: t('breadcrumb.press', 'Press Releases') },
+  ];
 
   const pressReleases = {
     usa: [
@@ -88,6 +97,8 @@ export default function PressReleases() {
   };
 
   return (
+    <>
+      <Breadcrumb items={breadcrumbItems} />
     <div className={styles.container}>
       <h1 className={styles.pageTitle}>{t('pageTitle', 'Press Releases')}</h1>
       <div className={styles.countrySelector}>
@@ -104,5 +115,6 @@ export default function PressReleases() {
       </div>
       <PressReleaseList releases={pressReleases[selectedCountry]} />
     </div>
+    </>
   );
 }

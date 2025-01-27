@@ -7,8 +7,10 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function EstoniaPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'Lühikokkuvõte teadusandmetest.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_ESTONIA.pdf', label: 'View Document 2' },
+    { filename: 'Pöördumine NORTH 26.11.2024.pdf', label: 'Pöördumine' },
+    { filename: 'Lühikokkuvõte teadusandmetest.pdf', label: 'Teadusandmete lühikokkuvõte' },
+    { filename: 'NORTH _press_release_estonia.pdf', label: 'Pressiteade' },
+    { filename: 'Modifitseeritud_mRNA_vaktsiinide_jääk_DNA_kontaminatsioon_vastus_faktikontrollile_13_22024.pdf', label: 'Vastus Eesti Päevalehe „faktikontrollile“' },
   ];
 
   // Breadcrumb navigation

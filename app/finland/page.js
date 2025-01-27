@@ -7,8 +7,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function FinlandPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_FINLAND.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_FINLAND.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Letter-2024-11-25_FINLAND.pdf', label: 'Kirje' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_FINLAND.pdf', label: 'Tiedekooste' },
+    { filename: 'Follow_Up_Letter_NORTH_FINLAND.pdf', label: 'Kirje 2' },
   ];
 
   // Breadcrumb navigation

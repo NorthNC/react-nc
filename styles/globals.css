@@ -154,6 +154,11 @@ body {
 
 /* News Grid styles */
 
+/* .news {
+
+  background: #90a5ac;
+} */
+
 .header-news {
   display: flex;
   justify-content: center;

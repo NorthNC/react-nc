@@ -6,7 +6,6 @@ import styles from './page.module.css';
 import ScrollToTopButton from '@/components/ScrollToTop';
 import Breadcrumb from '@/components/BreadCrumb';
 import { useTranslation } from '@/components/hooks/useTranslation';
-import PressReleases from '@/components/PressReleases';
 import RumbleEmbed from '@/components/RumbleEmbed';
 
 export default function NewsPage() {

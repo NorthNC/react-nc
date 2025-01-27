@@ -1,0 +1,121 @@
+/* General Container Styles */
+.supportPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Georgia', serif; /* More formal font */
+  }
+  
+  /* Title and Subtitle Styles */
+  .title {
+    color: #222; /* Darker color for formal appearance */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger font for emphasis */
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Introductory Text */
+  .intro {
+    text-align: center;
+    color: #555; /* Slightly darker than before for readability */
+    margin-bottom: 30px;
+    font-size: 1.1rem; /* Slightly larger font */
+    line-height: 1.6;
+  }
+  
+  /* Grid Container for Organizations */
+  .orgGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Larger minimum size for formal structure */
+    gap: 30px; /* More spacing for a cleaner look */
+  }
+  
+  /* Organization Card Styles */
+  .orgCard {
+    background-color: #fff; /* White background for a clean look */
+    border: 1px solid #ccc; /* Subtle border for structure */
+    border-radius: 4px; /* Slightly less rounded for a more formal appearance */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .orgCard:hover {
+    transform: translateY(-2px); /* Subtle hover effect */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* More pronounced shadow on hover */
+  }
+  
+  /* Organization Logo */
+  .orgLogo {
+    padding: 1rem;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 120px; /* Restrict logo size */
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Organization Card Text */
+  .orgCard h4 {
+    color: #222; /* Darker, more formal text color */
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .orgCard p {
+    color: #444; /* Neutral color for text */
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: auto;
+  }
+  
+  /* Organization Link Button */
+  .orgLink {
+    display: inline-block;
+    margin-top: 20px; /* Add more spacing above the button */
+    padding: 10px 20px; /* Larger button for better emphasis */
+    background-color: #1c831c; /* Dark blue for formal CTA */
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .orgLink:hover {
+    background-color: #4cae4c; /* Darker blue on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .orgGrid {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .intro {
+      font-size: 1rem;
+    }
+  }
+  

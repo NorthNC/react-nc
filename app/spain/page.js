@@ -7,8 +7,8 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function SpainPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_SPAIN.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_SPAIN.pdf', label: 'View Document 2' },
+    { filename: 'north_letter_spain.pdf', label: 'Carta de preocupación' },
+    { filename: 'lay_summary_spain.pdf', label: 'Resumen  científico  para  laicos' },
   ];
 
   // Breadcrumb navigation

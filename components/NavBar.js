@@ -19,11 +19,13 @@ const NavBar = () => {
       </button>
       <ul className={`${styles.navList} ${isOpen ? styles.open : ""}`}>
         <li><Link href="/" onClick={closeMenu}>{t("links.home", "Home")}</Link></li>
-        <li><Link href="/FAQ" onClick={closeMenu}>{t("links.faq", "FAQ")}</Link></li>
         <li><Link href="/news" onClick={closeMenu}>{t("links.news", "Media")}</Link></li>
-        <li><Link href="/support" onClick={closeMenu}>{t("links.supporters", "Supporters")}</Link></li>
-        <li><Link href="/about" onClick={closeMenu}>{t("links.contact", "Contact")}</Link></li>
-        <li><Link href="/pressreleases" onClick={closeMenu}>{t("links.press", "Press Releases")}</Link></li>
+        <li><Link href="/support" onClick={closeMenu}>{t("links.supporters", "Supporter")}</Link></li>
+        <li><Link href="/legal" onClick={closeMenu}>{t("links.legal", "Legal")}</Link></li>
+        <li><Link href="/pressreleases" onClick={closeMenu}>{t("links.facts", "Facts")}</Link></li>
+        <li><Link href="/pressreleases" onClick={closeMenu}>{t("links.press", "Press Release")}</Link></li>
+        <li><Link href="/about" onClick={closeMenu}>{t("links.contact", "About")}</Link></li>
+        <li><Link href="/FAQ" onClick={closeMenu}>{t("links.faq", "Official Responses")}</Link></li>
       </ul>
     </nav>
   );

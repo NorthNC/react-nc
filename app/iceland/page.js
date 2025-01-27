@@ -7,8 +7,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function IcelandPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'group_letter_iceland.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_ICELAND.pdf', label: 'View Document 2' },
+    { filename: 'group_letter_iceland.pdf', label: 'Vísindaleg samantekt' },
+    { filename: 'lay_summary_iceland.pdf', label: 'Áhyggjubréf' },
+    { filename: 'press_release_iceland.pdf', label: 'Fréttatilkynning' },
   ];
 
   // Breadcrumb navigation

@@ -1,5 +1,9 @@
 {
     "en": {
+      "breadcrumb": {
+      "home": "Home",
+      "press": "Press Releases"
+    },
       "pageTitle": "Press Releases",
       "selectCountry": "Select Country:",
       "countries": {

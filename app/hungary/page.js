@@ -7,8 +7,10 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function HungaryPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'north_letter_hungary.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_HUNGARY.pdf', label: 'View Document 2' },
+    { filename: 'north_letter_hungary.pdf', label: 'Nyílt Levél' },
+    { filename: 'north_lay_summery.pdf', label: 'Közérthető tudományos összefoglaló' },
+    { filename: 'press_release_hungary.pdf', label: 'Sajtóközlemény' },
+    { filename: 'Follow_Up_Letter_NORTH_HUNGARY.pdf', label: 'Második levél' },
   ];
 
   // Breadcrumb navigation

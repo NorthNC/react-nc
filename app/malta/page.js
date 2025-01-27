@@ -7,8 +7,8 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function MaltaPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'north_letter_malta.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_MALTA.pdf', label: 'View Document 2' },
+    { filename: 'north_letter_malta.pdf', label: 'Ittra ta tħassib' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_UK.pdf', label: 'Lay summary' },
   ];
 
   // Breadcrumb navigation

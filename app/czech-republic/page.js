@@ -5,9 +5,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function CzechRepublicPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'north_group_letter_CZECH.pdf', label: 'View Document 1' },
-    { filename: 'lay_summary_denmark.pdf', label: 'View Document 2' },
-    { filename: 'North_Group.pdf', label: 'View North Group Report' },
+    { filename: 'north_group_letter_CZECH.pdf', label: 'Dopis pro představitele států' },
+    { filename: 'lay_summery_czech-republic.pdf', label: 'Souhrn informací pro laiky' },
+    { filename: 'Follow_Up_Letter_NORTH_CZECH.pdf', label: 'Dopis pro představitele států 2' },
   ];
 
   // Breadcrumb navigation

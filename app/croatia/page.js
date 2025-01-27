@@ -5,9 +5,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function CroatiaPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'north_letter_croatia.pdf', label: 'View Document 1' },
-    { filename: 'lay_summary_croatia.pdf', label: 'View Document 2' },
-    { filename: 'North_Group.pdf', label: 'View North Group Report' },
+    { filename: 'north_letter_croatia.pdf', label: 'Pismo zabrinutosti' },
+    { filename: 'lay_summary_croatia.pdf', label: 'Sažetak za širu' },
+    { filename: 'Follow_Up_Letter_NORTH_CROATIA.pdf', label: 'Drugo pismo' },
   ];
 
   // Breadcrumb navigation

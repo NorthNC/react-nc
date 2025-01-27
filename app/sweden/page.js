@@ -7,8 +7,8 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function SwedenPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_SWEDEN.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_SWEDEN.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Letter-2024-11-25_SWEDEN.pdf', label: 'Orosbrev' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_SWEDEN.pdf', label: 'Vetenskaplig sammanfattning' },
   ];
 
   // Breadcrumb navigation

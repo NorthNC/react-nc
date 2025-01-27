@@ -2,12 +2,19 @@
 
 import styles from './About.module.css';
 import { useTranslation } from '@/components/hooks/useTranslation';
+import Breadcrumb from './BreadCrumb';
 
 export default function About() {
   const { t } = useTranslation("About"); // Load translations for the About component
 
+  const breadcrumbItems = [
+    { href: '/', label: t('home', 'Home') },
+    { href: '/about', label: t('about', 'About') },
+  ];
+
   return (
     <section className={styles.aboutSection} id="aboutScroll">
+      <Breadcrumb items={breadcrumbItems} />
       <div className={styles.aboutContainer}>
         <h2>{t("header", "About Us")}</h2>
         <p>{t("content", "NORTH, A growing coalition of engaged citizens from countries throughout Northern Europe. To raise awareness about the potential harms posed by modified mRNA therapeutics.")}</p>

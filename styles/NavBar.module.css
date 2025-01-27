@@ -9,8 +9,7 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  gap: 5rem;
+  justify-content: space-between;
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -18,6 +17,12 @@
 .navList li {
   margin: 0 10px;
   position: relative; /* Required for submenu positioning */
+  border-right: 2px solid #ccc; /* Add a vertical line */
+  padding-right: 30px; /* Add space between the link and the line */
+}
+
+.navList li:last-child {
+  border-right: none; /* Remove the line after the last link */
 }
 
 .navList li a {
@@ -25,6 +30,7 @@
   text-decoration: none;
   font-size: 25px;
 }
+
 
 .menuToggle {
   display: none;
@@ -82,6 +88,11 @@
 @media (max-width: 768px) {
   .navbar {
     height: auto;
+  }
+
+  .navList li {
+    border-right: none; /* Remove lines in mobile view */
+    padding-right: 0; /* Adjust padding */
   }
 
   .menuToggle {

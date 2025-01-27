@@ -2,11 +2,11 @@
   "en": {
     "links": {
       "home": "Home",
-      "faq": "FAQ",
+      "faq": "Official Responses",
       "news": "News",
-      "supporters": "Supporters",
-      "contact": "Contact",
-      "press": "Press Releases"
+      "supporters": "Supporter",
+      "contact": "About",
+      "press": "Press Release"
 
     },
     "selectLanguage": "Language:"

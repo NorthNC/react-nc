@@ -7,8 +7,9 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function PortugalPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter-2024-11-25_PORTUGAL.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_PORTUGAL.pdf', label: 'View Document 2' },
+    { filename: 'Letter_consern_PORTUGAL.pdf', label: 'Carta de preocupação' },
+    { filename: 'lay_summary_portugal.pdf', label: 'Resumo para leigos' },
+    { filename: 'Follow_Up_Letter_NORTH_PORTUGAL.pdf', label: 'Segunda carta' },
   ];
 
   // Breadcrumb navigation

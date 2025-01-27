@@ -7,8 +7,8 @@ import Breadcrumb from '@/components/BreadCrumb';
 export default function IrelandPage() {
   // List of PDF files to display as preview links
   const pdfs = [
-    { filename: 'NORTH_Group_Letter_IRELAND.pdf', label: 'View Document 1' },
-    { filename: 'NORTH_Group_Summary-2024-11-25_IRELAND.pdf', label: 'View Document 2' },
+    { filename: 'NORTH_Group_Letter_IRELAND.pdf', label: 'Letter of concern' },
+    { filename: 'NORTH_Group_Summary-2024-11-25_UK.pdf', label: 'Lay summary' },
   ];
 
   // Breadcrumb navigation

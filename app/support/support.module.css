@@ -1,0 +1,87 @@
+/* supportOrganizations.module.css */
+
+.supportPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.orgGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.orgCard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.orgCard:hover {
+  transform: translateY(-5px);
+}
+
+.orgLogo {
+  padding: 1rem;
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.orgCard h4 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.orgCard p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+
+.orgLink {
+  display: inline-block;
+  margin-top: auto;
+  padding: 8px 16px;
+  background-color: #1c831c;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.orgLink:hover {
+  background-color: #4cae4c;
+}
+
+@media (max-width: 768px) {
+  .orgGrid {
+    grid-template-columns: 1fr;
+  }
+}
